@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tải ArgusCam – Phần mềm quay video đóng hàng</title>
+<meta name="description" content="Tải phần mềm ArgusCam cho Windows. Quay video đóng gói đơn hàng, gắn mã vận đơn và truy xuất tức thì.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1B6CA8">
+<link rel="canonical" href="https://arguscam.io.vn/download.html">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --xanh:#1B6CA8;
+    --xanh-dam:#114E7E;
+    --xanh-nhat:#EAF3FB;
+    --xanh-vien:#C7E0F2;
+    --navy:#143A5A;
+    --den:#15212E;
+    --xam:#566373;
+    --trang:#FFFFFF;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Be Vietnam Pro',system-ui,sans-serif;
+    color:var(--den);
+    background:linear-gradient(180deg,#EFF6FC 0%,#DCEBF7 55%,#fff 100%);
+    line-height:1.6;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+  }
+  img{max-width:100%;display:block}
+  .box{
+    width:100%;
+    max-width:520px;
+    background:#fff;
+    border:1px solid var(--xanh-vien);
+    border-radius:24px;
+    box-shadow:0 24px 60px rgba(27,108,168,.16);
+    padding:48px 40px;
+    text-align:center;
+  }
+  .box .logo{height:56px;width:auto;margin:0 auto 22px}
+  .box h1{font-size:clamp(24px,5vw,32px);font-weight:800;line-height:1.25;margin-bottom:12px}
+  .box h1 .xanh{color:var(--xanh)}
+  .box .mo-ta{color:var(--xam);font-size:15px;max-width:400px;margin:0 auto 30px}
+  .nut-tai{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    width:100%;
+    padding:18px 28px;
+    border:none;
+    border-radius:14px;
+    background:var(--xanh);
+    color:#fff;
+    font-family:inherit;
+    font-size:18px;
+    font-weight:700;
+    cursor:pointer;
+    transition:.2s;
+    box-shadow:0 12px 26px rgba(27,108,168,.32);
+  }
+  .nut-tai:hover{background:var(--xanh-dam);transform:translateY(-2px)}
+  .nut-tai:active{transform:translateY(0)}
+  .nut-tai svg{width:22px;height:22px;flex:none}
+  .thong-tin{margin-top:18px;font-size:13px;color:var(--xam)}
+  .thong-tin b{color:var(--den)}
+  .trang-thai{margin-top:16px;font-size:14px;color:var(--xanh-dam);font-weight:600;min-height:21px}
+  .chip-hang{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:26px}
+  .chip{background:var(--xanh-nhat);border:1px solid var(--xanh-vien);border-radius:999px;padding:7px 14px;font-size:12.5px;font-weight:600;color:var(--xanh-dam)}
+  .quay-lai{display:inline-block;margin-top:26px;font-size:13.5px;color:var(--xam);font-weight:500}
+  .quay-lai:hover{color:var(--xanh-dam)}
+
+  /* Khóa mật khẩu */
+  #noiDung{display:none}
+  .o-mk{width:100%;padding:14px 16px;border:1.5px solid var(--xanh-vien);border-radius:12px;font-family:inherit;font-size:16px;color:var(--den);outline:none;transition:.2s;text-align:center;letter-spacing:1px}
+  .o-mk:focus{border-color:var(--xanh);box-shadow:0 0 0 3px rgba(27,108,168,.15)}
+  .loi-mk{margin-top:12px;font-size:13.5px;color:#D23B3B;font-weight:600;min-height:20px}
+</style>
+</head>
+<body>
+  <main class="box">
+    <img class="logo" src="logo.png" alt="ArgusCam">
+
+    <!-- Lớp nhập mật khẩu -->
+    <div id="lopMk">
+      <h1>Khu vực <span class="xanh">tải xuống</span></h1>
+      <p class="mo-ta">Vui lòng nhập mật khẩu được cung cấp để tải ArgusCam.</p>
+      <form id="formMk" autocomplete="off">
+        <input id="oMk" class="o-mk" type="password" placeholder="Nhập mật khẩu…" autofocus>
+        <div class="loi-mk" id="loiMk"></div>
+        <button type="submit" class="nut-tai" style="margin-top:6px">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+          </svg>
+          Mở khóa tải xuống
+        </button>
+      </form>
+      <a class="quay-lai" href="index.html">← Quay lại trang chủ</a>
+    </div>
+
+    <!-- Nội dung tải (ẩn cho tới khi nhập đúng) -->
+    <div id="noiDung">
+    <h1>Tải <span class="xanh">ArgusCam</span> cho Windows</h1>
+    <p class="mo-ta">Cài đặt phần mềm quay video đóng hàng &amp; truy xuất đơn ngay trên máy tính của bạn.</p>
+
+    <a id="nutTai" class="nut-tai"
+       href="https://download.arguscam.io.vn/ArgusCam-Installer.exe"
+       download="ArgusCam-Installer.exe">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+        <polyline points="7 10 12 15 17 10"/>
+        <line x1="12" y1="15" x2="12" y2="3"/>
+      </svg>
+      Tải về máy tính
+    </a>
+
+    <div class="trang-thai" id="trangThai"></div>
+
+    <p class="thong-tin">Phiên bản Windows</p>
+
+    <div class="chip-hang">
+      <span class="chip">⚡ Chạy siêu nhẹ</span>
+      <span class="chip">🔒 Dữ liệu riêng tư</span>
+      <span class="chip">♾️ Không giới hạn số bàn</span>
+    </div>
+
+    <a class="quay-lai" href="index.html">← Quay lại trang chủ</a>
+    </div><!-- /#noiDung -->
+  </main>
+
+  <script>
+    var MAT_KHAU = 'Arguscam2026@';
+    var lopMk = document.getElementById('lopMk');
+    var noiDung = document.getElementById('noiDung');
+    var formMk = document.getElementById('formMk');
+    var oMk = document.getElementById('oMk');
+    var loiMk = document.getElementById('loiMk');
+
+    function moKhoa() {
+      lopMk.style.display = 'none';
+      noiDung.style.display = 'block';
+    }
+
+    // Ghi nhớ trong phiên để không phải nhập lại khi tải xong quay lại
+    if (sessionStorage.getItem('argus_dl_ok') === '1') {
+      moKhoa();
+    }
+
+    formMk.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (oMk.value === MAT_KHAU) {
+        sessionStorage.setItem('argus_dl_ok', '1');
+        moKhoa();
+      } else {
+        loiMk.textContent = 'Mật khẩu không đúng. Vui lòng thử lại.';
+        oMk.value = '';
+        oMk.focus();
+      }
+    });
+
+    var nut = document.getElementById('nutTai');
+    var trangThai = document.getElementById('trangThai');
+    nut.addEventListener('click', function () {
+      trangThai.textContent = 'Đang bắt đầu tải xuống… Cảm ơn bạn đã tin dùng ArgusCam!';
+    });
+  </script>
+</body>
+</html>

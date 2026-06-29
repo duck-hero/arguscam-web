@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chính sách bảo mật – ArgusCam</title>
+<meta name="description" content="Chính sách bảo mật của ứng dụng ArgusCam – mô tả cách chúng tôi thu thập, sử dụng và bảo vệ dữ liệu cá nhân của bạn.">
+<meta name="robots" content="index,follow">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --xanh:#1B6CA8;
+    --xanh-dam:#114E7E;
+    --xanh-nhat:#EAF3FB;
+    --xanh-vien:#C7E0F2;
+    --navy:#143A5A;
+    --den:#15212E;
+    --xam:#566373;
+    --xam-nhat:#F4F7FA;
+    --trang:#FFFFFF;
+    --bo-goc:16px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:'Be Vietnam Pro',system-ui,sans-serif;color:var(--den);background:var(--trang);line-height:1.7}
+  img{max-width:100%;display:block}
+  a{text-decoration:none;color:inherit}
+  .khung{max-width:1120px;margin:0 auto;padding:0 20px}
+  .nhan{display:inline-block;background:var(--xanh-nhat);color:var(--xanh-dam);font-size:13px;font-weight:600;padding:6px 16px;border-radius:999px;margin-bottom:14px}
+  .nut{display:inline-block;padding:13px 28px;border-radius:10px;font-weight:600;font-size:15px;cursor:pointer;border:none;transition:.2s;text-align:center}
+  .nut-xanh{background:var(--xanh);color:#fff}
+  .nut-xanh:hover{background:var(--xanh-dam)}
+
+  /* NAV */
+  nav{position:sticky;top:0;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid #eee;z-index:50}
+  .nav-trong{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{display:flex;align-items:center}
+  .logo img{height:52px;width:auto;display:block}
+  .nav-links{display:flex;gap:24px;font-size:14px;font-weight:500;color:var(--xam)}
+  .nav-links a:hover{color:var(--xanh-dam)}
+  @media(max-width:820px){.nav-links{display:none}}
+
+  /* HERO TRANG PHỤ */
+  .trang-hero{background:linear-gradient(180deg,#EFF6FC 0%,#DCEBF7 60%,#fff 100%);text-align:center;padding:64px 0 48px}
+  .trang-hero h1{font-size:clamp(28px,5vw,40px);font-weight:800;line-height:1.25}
+  .trang-hero p{max-width:620px;margin:14px auto 0;color:var(--xam);font-size:15px}
+
+  /* NỘI DUNG VĂN BẢN */
+  .vanban{max-width:820px;margin:0 auto;padding:56px 20px 72px}
+  .vanban h2{font-size:23px;font-weight:800;margin:44px 0 14px;color:var(--navy);scroll-margin-top:80px}
+  .vanban h2:first-of-type{margin-top:0}
+  .vanban h3{font-size:17px;font-weight:700;margin:26px 0 8px;color:var(--den)}
+  .vanban h4{font-size:15px;font-weight:700;margin:18px 0 6px;color:var(--den)}
+  .vanban p{color:var(--xam);font-size:15px;margin-bottom:14px}
+  .vanban ul{list-style:none;margin:0 0 16px}
+  .vanban li{position:relative;padding-left:26px;margin-bottom:10px;color:var(--xam);font-size:15px}
+  .vanban li::before{content:"✓";position:absolute;left:0;top:1px;width:18px;height:18px;border-radius:50%;background:var(--xanh);color:#fff;font-size:10px;display:flex;align-items:center;justify-content:center;font-weight:700}
+  .vanban a{color:var(--xanh-dam);font-weight:600;text-decoration:underline}
+  .vanban strong{color:var(--den)}
+  .capnhat{font-size:13.5px;color:var(--xam);margin-bottom:6px}
+  .hop-noibat{background:var(--xanh-nhat);border:1px solid var(--xanh-vien);border-left:4px solid var(--xanh);border-radius:14px;padding:20px 24px;margin:24px 0}
+  .hop-noibat p{margin:0;color:var(--navy);font-size:15px}
+  .canluuy{background:#FFF8E6;border:1px solid #F3D98A;border-left:4px solid #E0A800;border-radius:14px;padding:16px 20px;margin:24px 0}
+  .canluuy p{margin:0;color:#7A5B00;font-size:14px}
+
+  /* FOOTER */
+  footer{background:#11202E;color:#9FB0C0;padding:54px 0 26px;margin-top:0}
+  .ft-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:30px}
+  @media(max-width:760px){.ft-grid{grid-template-columns:1fr 1fr}}
+  footer .logo{color:#fff;font-size:22px;font-weight:800}
+  footer .logo .xanh{color:#4FA8DC}
+  footer h5{color:#fff;font-size:14px;margin-bottom:14px}
+  footer a{display:block;font-size:13.5px;margin-bottom:9px;color:#9FB0C0}
+  footer a:hover{color:#4FA8DC}
+  .ft-duoi{border-top:1px solid #233340;margin-top:38px;padding-top:20px;font-size:12.5px;text-align:center;color:#6E7E8C}
+  @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="khung nav-trong">
+    <a href="index.html" class="logo"><img src="logo.png" alt="ArgusCam"></a>
+    <div class="nav-links">
+      <a href="index.html#tinhnang">Tính năng</a>
+      <a href="index.html#uudiem">Ưu điểm</a>
+      <a href="index.html#banggia">Bảng giá</a>
+      <a href="index.html#lienhe">Liên hệ</a>
+      <a href="index.html#faq">FAQ</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="trang-hero">
+  <div class="khung">
+    <span class="nhan">🔒 Quyền riêng tư</span>
+    <h1>Chính sách bảo mật</h1>
+    <p>Chính sách này mô tả cách Chúng Tôi thu thập, sử dụng và tiết lộ thông tin của Bạn khi Bạn sử dụng Ứng dụng, cũng như các quyền riêng tư và cách pháp luật bảo vệ Bạn.</p>
+  </div>
+</header>
+
+<!-- NỘI DUNG -->
+<main class="vanban">
+  <p class="capnhat">Chính sách bảo mật được cập nhật lần cuối vào ngày <strong>13 tháng 6 năm 2026</strong>.</p>
+
+  <p>Chính sách bảo mật này mô tả các chính sách và quy trình của Chúng Tôi về việc thu thập, sử dụng và tiết lộ thông tin của Bạn khi Bạn sử dụng Dịch vụ, đồng thời cho Bạn biết về các quyền riêng tư của Bạn và cách pháp luật bảo vệ Bạn.</p>
+  <p>Chúng Tôi sử dụng Dữ Liệu Cá Nhân của Bạn để cung cấp và cải thiện Dịch vụ. Bằng việc sử dụng Dịch vụ, Bạn đồng ý với việc thu thập và sử dụng thông tin theo Chính sách bảo mật này.</p>
+
+  <h2 id="dinhnghia">Giải thích và Định nghĩa</h2>
+
+  <h3>Giải thích</h3>
+  <p>Các từ có chữ cái đầu được viết hoa mang ý nghĩa được định nghĩa theo các điều kiện dưới đây. Các định nghĩa sau đây có cùng ý nghĩa bất kể chúng xuất hiện ở dạng số ít hay số nhiều.</p>
+
+  <h3>Định nghĩa</h3>
+  <p>Trong phạm vi Chính sách bảo mật này:</p>
+  <ul>
+    <li><strong>Tài khoản</strong> nghĩa là một tài khoản duy nhất được tạo cho Bạn để truy cập Dịch vụ của Chúng Tôi hoặc các phần của Dịch vụ.</li>
+    <li><strong>Chi nhánh / Bên liên kết</strong> nghĩa là một thực thể kiểm soát, bị kiểm soát bởi, hoặc cùng chịu sự kiểm soát chung với một bên, trong đó “kiểm soát” nghĩa là sở hữu từ 50% trở lên cổ phần, lợi ích vốn hoặc chứng khoán khác có quyền biểu quyết bầu giám đốc hoặc cơ quan quản lý.</li>
+    <li><strong>Ứng dụng</strong> nghĩa là chương trình phần mềm ArgusCam do Nhà Phát Triển cung cấp mà Bạn tải xuống trên bất kỳ thiết bị điện tử nào.</li>
+    <li><strong>Nhà Phát Triển</strong> (được gọi là “Nhà Phát Triển”, “Chúng Tôi” hoặc “Của Chúng Tôi” trong Chính sách này) đề cập đến cá nhân phát triển và phát hành ứng dụng ArgusCam: <strong>Huy Lê</strong>. Ứng dụng được đăng ký dưới hình thức tài khoản nhà phát triển cá nhân trên các kho ứng dụng.</li>
+    <li><strong>Quốc Gia</strong> đề cập đến: <strong>Việt Nam</strong>.</li>
+    <li><strong>Thiết Bị</strong> nghĩa là bất kỳ thiết bị nào có thể truy cập Dịch vụ, chẳng hạn như máy tính, điện thoại di động hoặc máy tính bảng kỹ thuật số.</li>
+    <li><strong>Dữ Liệu Cá Nhân</strong> là bất kỳ thông tin nào liên quan đến một cá nhân đã được xác định hoặc có thể xác định được.</li>
+    <li><strong>Dịch Vụ</strong> đề cập đến Ứng dụng và/hoặc Trang web ArgusCam.</li>
+    <li><strong>Nhà Cung Cấp Dịch Vụ</strong> nghĩa là bất kỳ cá nhân hay pháp nhân nào xử lý dữ liệu thay mặt cho Nhà Phát Triển. Đó là các bên thứ ba được Nhà Phát Triển thuê để hỗ trợ cung cấp Dịch vụ, thực hiện các dịch vụ liên quan đến Dịch vụ hoặc hỗ trợ phân tích cách Dịch vụ được sử dụng.</li>
+    <li><strong>Dữ Liệu Sử Dụng</strong> đề cập đến dữ liệu được thu thập tự động, được tạo ra từ việc sử dụng Dịch vụ hoặc từ chính hạ tầng của Dịch vụ (ví dụ thời lượng truy cập một trang).</li>
+    <li><strong>Bạn</strong> nghĩa là cá nhân truy cập hoặc sử dụng Dịch vụ, hoặc công ty / pháp nhân khác mà cá nhân đó đại diện khi truy cập hoặc sử dụng Dịch vụ.</li>
+  </ul>
+
+  <h2 id="thuthap">Thu thập và Sử dụng Dữ Liệu Cá Nhân của Bạn</h2>
+
+  <h3>Các loại dữ liệu được thu thập</h3>
+
+  <h4>Dữ Liệu Cá Nhân</h4>
+  <p>Trong quá trình sử dụng Dịch vụ của Chúng Tôi, Chúng Tôi có thể yêu cầu Bạn cung cấp cho Chúng Tôi một số thông tin nhận dạng cá nhân nhất định, có thể được dùng để liên hệ hoặc nhận dạng Bạn. Thông tin nhận dạng cá nhân có thể bao gồm, nhưng không giới hạn ở:</p>
+  <ul>
+    <li>Địa chỉ email</li>
+    <li>Họ và tên</li>
+    <li>Số điện thoại</li>
+    <li>Dữ Liệu Sử Dụng</li>
+  </ul>
+
+  <h4>Dữ Liệu Sử Dụng</h4>
+  <p>Dữ Liệu Sử Dụng được thu thập tự động khi sử dụng Dịch vụ.</p>
+  <p>Dữ Liệu Sử Dụng có thể bao gồm các thông tin như địa chỉ IP của Thiết Bị, loại trình duyệt, phiên bản trình duyệt, các trang trong Dịch vụ mà Bạn truy cập, thời gian và ngày truy cập, thời lượng ở các trang đó, định danh thiết bị duy nhất và các dữ liệu chẩn đoán khác.</p>
+  <p>Khi Bạn truy cập Dịch vụ bằng hoặc thông qua thiết bị di động, Chúng Tôi có thể tự động thu thập một số thông tin nhất định, bao gồm nhưng không giới hạn ở loại thiết bị di động Bạn sử dụng, ID duy nhất của thiết bị, địa chỉ IP của thiết bị, hệ điều hành di động, loại trình duyệt Internet di động Bạn dùng, định danh thiết bị duy nhất và các dữ liệu chẩn đoán khác.</p>
+  <p>Chúng Tôi cũng có thể thu thập thông tin mà trình duyệt của Bạn gửi mỗi khi Bạn truy cập Dịch vụ hoặc khi Bạn truy cập Dịch vụ bằng thiết bị di động.</p>
+
+  <h4>Thông tin Bạn cung cấp khi sử dụng Ứng dụng</h4>
+  <p>Trong quá trình sử dụng Ứng dụng, để cung cấp các tính năng của Ứng dụng, Chúng Tôi có thể thu thập (khi được Bạn cho phép trước):</p>
+  <ul>
+    <li>Hình ảnh, video và thông tin khác từ camera và thư viện ảnh trên Thiết Bị của Bạn.</li>
+  </ul>
+  <p>Chúng Tôi sử dụng thông tin này để cung cấp các tính năng của Dịch vụ, để cải thiện và tùy chỉnh Dịch vụ. Thông tin có thể được tải lên máy chủ của Nhà Phát Triển và/hoặc máy chủ của Nhà Cung Cấp Dịch Vụ, hoặc được lưu trữ trên Thiết Bị của Bạn. Bạn có thể bật hoặc tắt quyền truy cập này bất kỳ lúc nào thông qua cài đặt của Thiết Bị.</p>
+
+  <h3>Công nghệ theo dõi và Cookie</h3>
+  <p>Chúng Tôi sử dụng Cookie và các công nghệ theo dõi tương tự để theo dõi hoạt động trên Dịch vụ và lưu trữ một số thông tin. Các công nghệ theo dõi được sử dụng là các đèn hiệu (beacon), thẻ và mã lệnh để thu thập, theo dõi thông tin nhằm cải thiện và phân tích Dịch vụ. Các công nghệ Chúng Tôi sử dụng có thể bao gồm:</p>
+  <ul>
+    <li><strong>Cookie hoặc Cookie trình duyệt.</strong> Cookie là một tệp nhỏ được đặt trên Thiết Bị của Bạn. Bạn có thể yêu cầu trình duyệt từ chối tất cả Cookie hoặc thông báo khi có Cookie được gửi. Tuy nhiên, nếu Bạn không chấp nhận Cookie, một số phần của Dịch vụ có thể không sử dụng được.</li>
+    <li><strong>Đèn hiệu web (Web Beacons).</strong> Một số phần của Dịch vụ và email của Chúng Tôi có thể chứa các tệp điện tử nhỏ gọi là web beacon, cho phép Nhà Phát Triển đếm số người dùng đã truy cập các trang đó hoặc mở email, và phục vụ các thống kê liên quan khác.</li>
+  </ul>
+  <p>Cookie có thể là “Cố định” (Persistent) hoặc “Phiên” (Session). Cookie Cố định vẫn nằm trên thiết bị khi Bạn ngoại tuyến, còn Cookie Phiên bị xóa ngay khi Bạn đóng trình duyệt.</p>
+
+  <h2 id="sudung">Sử dụng Dữ Liệu Cá Nhân của Bạn</h2>
+  <p>Nhà Phát Triển có thể sử dụng Dữ Liệu Cá Nhân cho các mục đích sau:</p>
+  <ul>
+    <li><strong>Để cung cấp và duy trì Dịch vụ của Chúng Tôi</strong>, bao gồm việc giám sát mức độ sử dụng Dịch vụ.</li>
+    <li><strong>Để quản lý Tài khoản của Bạn:</strong> quản lý việc Bạn đăng ký sử dụng Dịch vụ. Dữ Liệu Cá Nhân Bạn cung cấp cho phép Bạn truy cập các chức năng dành cho người dùng đã đăng ký.</li>
+    <li><strong>Để thực hiện hợp đồng:</strong> phát triển, tuân thủ và thực hiện hợp đồng mua sản phẩm, dịch vụ mà Bạn đã mua hoặc bất kỳ hợp đồng nào khác với Chúng Tôi thông qua Dịch vụ.</li>
+    <li><strong>Để liên hệ với Bạn:</strong> qua email, cuộc gọi điện thoại, SMS hoặc các hình thức liên lạc điện tử tương đương, như thông báo đẩy của ứng dụng di động, về các cập nhật hoặc thông tin liên quan đến chức năng, sản phẩm, dịch vụ đã ký kết, bao gồm các cập nhật bảo mật khi cần thiết.</li>
+    <li><strong>Để cung cấp cho Bạn</strong> tin tức, ưu đãi đặc biệt và thông tin chung về các hàng hóa, dịch vụ và sự kiện khác tương tự những gì Bạn đã mua hoặc quan tâm, trừ khi Bạn chọn không nhận.</li>
+    <li><strong>Để quản lý các yêu cầu của Bạn:</strong> tiếp nhận và xử lý các yêu cầu Bạn gửi đến Chúng Tôi.</li>
+    <li><strong>Để chuyển nhượng kinh doanh:</strong> Chúng Tôi có thể sử dụng thông tin để đánh giá hoặc thực hiện việc sáp nhập, thoái vốn, tái cấu trúc, giải thể hoặc bán/chuyển nhượng một phần hay toàn bộ tài sản, trong đó Dữ Liệu Cá Nhân là một trong các tài sản được chuyển nhượng.</li>
+    <li><strong>Cho các mục đích khác:</strong> như phân tích dữ liệu, xác định xu hướng sử dụng, đánh giá hiệu quả các chiến dịch quảng bá và cải thiện Dịch vụ, sản phẩm, hoạt động tiếp thị cũng như trải nghiệm của Bạn.</li>
+  </ul>
+
+  <p>Chúng Tôi có thể chia sẻ thông tin cá nhân của Bạn trong các trường hợp sau:</p>
+  <ul>
+    <li><strong>Với Nhà Cung Cấp Dịch Vụ:</strong> để theo dõi, phân tích việc sử dụng Dịch vụ và để liên hệ với Bạn.</li>
+    <li><strong>Cho việc chuyển nhượng kinh doanh:</strong> liên quan đến hoặc trong quá trình đàm phán sáp nhập, bán tài sản, tài trợ hoặc mua lại toàn bộ/một phần doanh nghiệp.</li>
+    <li><strong>Với các Bên liên kết:</strong> trong trường hợp đó Chúng Tôi yêu cầu các Bên liên kết tuân thủ Chính sách bảo mật này.</li>
+    <li><strong>Với đối tác kinh doanh:</strong> để cung cấp cho Bạn các sản phẩm, dịch vụ hoặc chương trình khuyến mãi nhất định.</li>
+    <li><strong>Với người dùng khác:</strong> khi Bạn chia sẻ thông tin cá nhân hoặc tương tác trong các khu vực công cộng với người dùng khác.</li>
+    <li><strong>Khi có sự đồng ý của Bạn:</strong> Chúng Tôi có thể tiết lộ thông tin cá nhân của Bạn cho bất kỳ mục đích nào khác khi có sự đồng ý của Bạn.</li>
+  </ul>
+
+  <h2 id="luutru">Lưu giữ Dữ Liệu Cá Nhân của Bạn</h2>
+  <p>Nhà Phát Triển chỉ lưu giữ Dữ Liệu Cá Nhân của Bạn trong khoảng thời gian cần thiết cho các mục đích nêu trong Chính sách này. Chúng Tôi sẽ lưu giữ và sử dụng Dữ Liệu Cá Nhân trong phạm vi cần thiết để tuân thủ nghĩa vụ pháp lý, giải quyết tranh chấp và thực thi các thỏa thuận, chính sách của Chúng Tôi.</p>
+  <p>Nhà Phát Triển cũng lưu giữ Dữ Liệu Sử Dụng cho mục đích phân tích nội bộ. Dữ Liệu Sử Dụng thường được lưu trong thời gian ngắn hơn, trừ khi dữ liệu này được dùng để tăng cường bảo mật hoặc cải thiện chức năng của Dịch vụ, hoặc Chúng Tôi bị ràng buộc pháp lý phải lưu giữ trong thời gian dài hơn.</p>
+
+  <h2 id="chuyengiao">Chuyển giao Dữ Liệu Cá Nhân của Bạn</h2>
+  <p>Thông tin của Bạn, bao gồm Dữ Liệu Cá Nhân, được xử lý tại nơi Nhà Phát Triển hoạt động và tại bất kỳ nơi nào khác có các bên tham gia xử lý. Điều này có nghĩa thông tin có thể được chuyển đến — và lưu giữ trên — các máy tính nằm ngoài khu vực pháp lý của Bạn, nơi luật bảo vệ dữ liệu có thể khác.</p>
+  <p>Sự đồng ý của Bạn với Chính sách này, kèm theo việc Bạn cung cấp thông tin, thể hiện sự chấp thuận của Bạn đối với việc chuyển giao đó. Nhà Phát Triển sẽ thực hiện các bước hợp lý cần thiết để đảm bảo dữ liệu của Bạn được xử lý an toàn và theo đúng Chính sách bảo mật này.</p>
+
+  <h2 id="xoa">Xóa Dữ Liệu Cá Nhân của Bạn</h2>
+  <p>Bạn có quyền xóa hoặc yêu cầu Chúng Tôi hỗ trợ xóa Dữ Liệu Cá Nhân mà Chúng Tôi đã thu thập về Bạn. Dịch vụ có thể cho phép Bạn xóa một số thông tin nhất định trực tiếp trong Dịch vụ.</p>
+  <p>Bạn có thể cập nhật, sửa đổi hoặc xóa thông tin bất kỳ lúc nào bằng cách đăng nhập vào Tài khoản (nếu có) và truy cập phần cài đặt cho phép Bạn quản lý thông tin cá nhân, hoặc liên hệ với Chúng Tôi để yêu cầu. Tuy nhiên, Chúng Tôi có thể cần giữ lại một số thông tin khi có nghĩa vụ pháp lý hoặc cơ sở hợp pháp để làm điều đó.</p>
+
+  <h2 id="tietlo">Tiết lộ Dữ Liệu Cá Nhân của Bạn</h2>
+  <h3>Giao dịch kinh doanh</h3>
+  <p>Nếu Nhà Phát Triển tham gia vào một vụ sáp nhập, mua lại hoặc bán tài sản, Dữ Liệu Cá Nhân của Bạn có thể được chuyển giao. Chúng Tôi sẽ thông báo trước khi Dữ Liệu Cá Nhân của Bạn được chuyển giao và chịu sự điều chỉnh của một Chính sách bảo mật khác.</p>
+  <h3>Yêu cầu thực thi pháp luật</h3>
+  <p>Trong một số trường hợp, Nhà Phát Triển có thể buộc phải tiết lộ Dữ Liệu Cá Nhân của Bạn nếu pháp luật yêu cầu hoặc theo yêu cầu hợp lệ của cơ quan công quyền (ví dụ tòa án hoặc cơ quan nhà nước).</p>
+  <h3>Các yêu cầu pháp lý khác</h3>
+  <p>Nhà Phát Triển có thể tiết lộ Dữ Liệu Cá Nhân của Bạn khi tin tưởng một cách thiện chí rằng hành động đó là cần thiết để: tuân thủ nghĩa vụ pháp lý; bảo vệ và bảo vệ quyền hoặc tài sản của Nhà Phát Triển; ngăn chặn hoặc điều tra hành vi sai trái có thể xảy ra liên quan đến Dịch vụ; bảo vệ sự an toàn cá nhân của người dùng Dịch vụ hoặc công chúng; và phòng tránh trách nhiệm pháp lý.</p>
+
+  <h2 id="baomat">Bảo mật Dữ Liệu Cá Nhân của Bạn</h2>
+  <p>Bảo mật Dữ Liệu Cá Nhân của Bạn là quan trọng đối với Chúng Tôi, nhưng xin lưu ý rằng không có phương thức truyền tải qua Internet hoặc phương thức lưu trữ điện tử nào an toàn 100%. Mặc dù Chúng Tôi nỗ lực sử dụng các biện pháp hợp lý về mặt thương mại để bảo vệ Dữ Liệu Cá Nhân của Bạn, Chúng Tôi không thể đảm bảo an toàn tuyệt đối.</p>
+
+  <h2 id="treem">Quyền riêng tư của trẻ em</h2>
+  <p>Dịch vụ của Chúng Tôi không hướng đến bất kỳ ai dưới 13 tuổi. Chúng Tôi không cố ý thu thập thông tin nhận dạng cá nhân từ người dưới 13 tuổi. Nếu Bạn là cha mẹ hoặc người giám hộ và biết rằng con của Bạn đã cung cấp Dữ Liệu Cá Nhân cho Chúng Tôi, vui lòng liên hệ với Chúng Tôi. Nếu phát hiện đã thu thập Dữ Liệu Cá Nhân từ người dưới 13 tuổi mà không có sự xác minh đồng ý của cha mẹ, Chúng Tôi sẽ thực hiện các bước để xóa thông tin đó khỏi máy chủ của Chúng Tôi.</p>
+
+  <h2 id="lienket">Liên kết đến các trang web khác</h2>
+  <p>Dịch vụ của Chúng Tôi có thể chứa các liên kết đến những trang web không do Chúng Tôi vận hành. Nếu Bạn nhấp vào liên kết của bên thứ ba, Bạn sẽ được chuyển đến trang web của bên thứ ba đó. Chúng Tôi khuyến nghị Bạn xem lại Chính sách bảo mật của mọi trang web Bạn truy cập. Chúng Tôi không kiểm soát và không chịu trách nhiệm về nội dung, chính sách bảo mật hoặc thông lệ của bất kỳ trang web hay dịch vụ bên thứ ba nào.</p>
+
+  <h2 id="thaydoi">Thay đổi đối với Chính sách bảo mật này</h2>
+  <p>Chúng Tôi có thể cập nhật Chính sách bảo mật này theo thời gian. Chúng Tôi sẽ thông báo cho Bạn về mọi thay đổi bằng cách đăng Chính sách bảo mật mới trên trang này và cập nhật ngày “cập nhật lần cuối” ở đầu trang. Bạn nên xem lại Chính sách bảo mật này định kỳ. Các thay đổi có hiệu lực khi được đăng trên trang này.</p>
+
+  <h2 id="lienhe">Liên hệ với Chúng Tôi</h2>
+  <p>Nếu Bạn có bất kỳ câu hỏi nào về Chính sách bảo mật này, Bạn có thể liên hệ với Chúng Tôi:</p>
+  <ul>
+    <li>Qua email: <a href="mailto:arguscamvn@gmail.com">arguscamvn@gmail.com</a></li>
+    <li>Qua điện thoại / Zalo: <a href="tel:0588855508">0588855508</a></li>
+  </ul>
+</main>
+
+<!-- FOOTER -->
+
+</body>
+</html>

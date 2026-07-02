@@ -67,6 +67,14 @@ nav{position:sticky;top:0;background:rgba(255,255,255,.95);backdrop-filter:blur(
 .bai-noidung table{width:100%;border-collapse:collapse;margin:8px 0 22px;font-size:14.5px}
 .bai-noidung th,.bai-noidung td{border:1px solid #E7EDF3;padding:10px 12px;text-align:left}
 .bai-noidung th{background:var(--xam-nhat);font-weight:700}
+.tra-loi-nhanh{background:#fff;border-left:4px solid var(--xanh);padding:16px 22px;margin:24px 0 8px;border-radius:0 12px 12px 0;font-size:15.5px;color:#2B3947;box-shadow:0 8px 20px rgba(27,108,168,.08)}
+.tra-loi-nhanh strong{color:var(--xanh-dam)}
+.mini-faq{margin-top:36px}
+.mini-faq h2{font-size:24px;font-weight:800;margin-bottom:8px}
+.mini-faq-muc{border-bottom:1px solid #E7EDF3;padding:18px 0}
+.mini-faq-muc:last-child{border-bottom:none}
+.mini-faq-muc h3{font-size:16.5px;font-weight:700;margin-bottom:8px;color:var(--den)}
+.mini-faq-muc p{color:#2B3947;margin-bottom:0;font-size:15px}
 .bai-cta{background:var(--xanh-nhat);border:1px solid var(--xanh-vien);border-radius:16px;padding:28px;margin:36px 0;text-align:center}
 .bai-cta h3{margin-top:0;font-size:20px}
 .bai-cta p{color:var(--xam);margin-bottom:18px}

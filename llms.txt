@@ -1,0 +1,25 @@
+# ArgusCam
+
+> Phần mềm quay video đóng gói đơn hàng & truy xuất tức thì cho nhà bán hàng thương mại điện tử tại Việt Nam.
+
+ArgusCam ghi lại video từng đơn hàng khi đóng gói, gắn theo mã vận đơn, giúp shop online có bằng chứng minh bạch để đối soát khi khách hàng khiếu nại thiếu hàng, sai hàng hoặc hàng hoàn trả. Phần mềm chạy trên Windows, dữ liệu lưu trực tiếp tại máy tính của shop (không tải lên đám mây), không giới hạn số bàn đóng gói. ArgusCam cũng có ứng dụng di động cho iPhone trên App Store.
+
+## Trang chính
+
+- [Trang chủ](https://arguscam.io.vn/): Giới thiệu sản phẩm, tính năng, bảng giá, câu hỏi thường gặp.
+- [Tải xuống](https://arguscam.io.vn/download.html): Tải bản cài đặt ArgusCam cho Windows.
+- [Chính sách bảo mật](https://arguscam.io.vn/privacy-policy.html): Chính sách bảo mật dữ liệu người dùng.
+
+## Blog
+
+- [Blog ArgusCam](https://arguscam.io.vn/blog/): Kiến thức vận hành đóng hàng và xử lý khiếu nại cho shop TMĐT.
+- [Cách chống bom hàng hiệu quả cho shop bán hàng online](https://arguscam.io.vn/blog/chong-bom-hang-hieu-qua-cho-shop-online.html): 7 cách giảm tỷ lệ bom hàng cho shop online.
+- [Quay video đóng hàng: bằng chứng giải quyết khiếu nại thiếu hàng, sai hàng](https://arguscam.io.vn/blog/quay-video-dong-hang-bang-chung-khieu-nai.html): Vì sao quay video đóng gói là bằng chứng quan trọng khi khách khiếu nại.
+- [Quy trình xử lý khiếu nại đơn hàng COD nhanh gọn, giữ chân khách hàng](https://arguscam.io.vn/blog/quy-trinh-xu-ly-khieu-nai-don-hang-cod.html): 5 bước xử lý khiếu nại COD chuẩn cho shop online.
+- [7 sai lầm khi đóng gói hàng hóa khiến shop online mất tiền oan](https://arguscam.io.vn/blog/sai-lam-thuong-gap-khi-dong-goi-hang-hoa.html): Các lỗi đóng gói phổ biến và cách khắc phục.
+- [Camera giám sát đóng hàng hay phần mềm quay video đóng gói?](https://arguscam.io.vn/blog/camera-giam-sat-hay-phan-mem-quay-video-dong-goi.html): So sánh camera an ninh và phần mềm quay video đóng gói chuyên dụng.
+
+## Liên hệ
+
+- Điện thoại: 0588855508
+- Email: arguscam.solution@gmail.com

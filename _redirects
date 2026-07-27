@@ -1,0 +1,3 @@
+# Chuẩn hoá URL: trang index luôn 301 về thư mục gốc tương ứng
+/index.html       /        301
+/blog/index.html  /blog/   301

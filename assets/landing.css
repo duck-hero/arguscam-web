@@ -1,0 +1,65 @@
+/* ArgusCam – CSS riêng cho trang /quay-video-boc-hang (nạp sau site.css) */
+
+/* HERO navy cho người mua */
+.hero-mua .hero-luoi{grid-template-columns:1.15fr .85fr;gap:48px}
+.hero-mua h1{font-size:clamp(30px,4.6vw,50px)}
+.hero-mua .hero-mota{max-width:600px}
+.hero-mua .cua-hang{justify-content:flex-start;margin-top:0}
+.hero-mua .khung-chung{position:relative;z-index:0}
+.hero-mua .khung-chung::before{content:"";position:absolute;z-index:-1;left:-70px;right:-70px;top:-40px;height:75%;background:radial-gradient(closest-side,rgba(224,168,0,.20),rgba(224,168,0,0));pointer-events:none}
+.hero-mua .chu-giai{font-weight:600}
+@media(max-width:900px){
+  .hero-mua .hero-luoi{grid-template-columns:1fr;gap:36px}
+  .hero-mua .khung-chung::before{left:-30px;right:-30px}
+}
+
+/* #cach-quay: hộp mẹo */
+.meo{max-width:860px;margin:36px auto 0}
+.meo .ds-tick{margin-top:12px}
+.meo .ds-tick li{color:var(--navy);font-size:14.5px}
+.meo .ds-tick li:last-child{margin-bottom:0}
+
+/* #khac-biet: thẻ khác biệt có điểm nhấn vàng */
+#khac-biet .the{border-top:4px solid var(--cam);box-shadow:var(--bong)}
+#khac-biet .the .icon{background:var(--cam-nhat)}
+#khac-biet .the h3{font-size:17.5px}
+#khac-biet .bang-cuon{max-width:960px;margin-left:auto;margin-right:auto}
+#khac-biet .goi-y-bang{max-width:960px;margin-left:auto;margin-right:auto}
+
+/* #checklist, #vi-sao: hộp nổi bật căn giữa */
+#checklist .hop-noibat{max-width:760px;margin:24px auto 0}
+#vi-sao .hop-noibat{max-width:860px;margin:28px auto 0}
+
+/* #vi-sao: thẻ theo sàn, dòng nguồn nằm đáy */
+.san-ds .the{display:flex;flex-direction:column}
+.san-ds .the h3{font-size:19px;font-weight:800;color:var(--navy)}
+.san-ds .the p{color:var(--chu)}
+.the p.nguon,.the p+p.nguon{font-size:12.5px;color:var(--xam);margin-top:auto;padding-top:14px;border-top:1px dashed var(--vien)}
+.the p.nguon a{color:var(--xanh-dam);text-decoration:underline}
+.san-ds .the>p:not(.nguon){margin-bottom:14px}
+
+/* #gui-video: bước ngang, gọn */
+#gui-video .hai-cot{margin-top:40px;gap:32px}
+#gui-video .buoc-ds{gap:14px}
+#gui-video .buoc{display:flex;align-items:center;gap:16px;padding:18px 20px}
+#gui-video .buoc::before{margin:0;flex:none}
+/* bước là đoạn văn <p> (không phải tiêu đề); giữ h3 cho tới khi boc_hang.py sinh lại */
+#gui-video .buoc p,#gui-video .buoc h3{font-size:15.5px;font-weight:600;line-height:1.5;margin:0;color:var(--den)}
+#gui-video .hop-noibat{margin-top:0}
+#gui-video .canluuy{margin-bottom:0}
+
+/* #gia: giới hạn của gói FREE hiện dấu gạch, không phải dấu tick */
+.gia-soc .ds-tick li.khong{color:var(--xam)}
+.gia-soc .ds-tick li.khong::before{content:"–";background:#DCE3EA;color:var(--xam)}
+#gia .canluuy{max-width:820px;margin:16px auto 0}
+
+/* Thẻ blog cho người mua */
+#bai-viet .blog-luoi{max-width:960px;margin:0 auto}
+
+/* CTA cuối: dòng hỗ trợ căn giữa toàn khối */
+.cta-cuoi #lien-he-mua{max-width:none}
+
+@media(max-width:600px){
+  .hero-mua .hero-mota{font-size:16px;margin:16px 0 22px}
+  .hero-mua .hero-luoi{gap:28px}
+}

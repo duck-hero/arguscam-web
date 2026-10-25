@@ -1,35 +1,52 @@
 # ArgusCam
 
-> ArgusCam là ứng dụng di động quay video đóng gói đơn hàng theo mã vận đơn, dành cho shop online, kho hàng và đội đóng gói tại Việt Nam. Quét mã là quay, mỗi đơn một video có in mã đơn và thời gian, lưu đám mây cho cả nhóm, tìm lại bằng mã đơn trong vài giây.
+> ArgusCam là ứng dụng di động quay video bằng chứng cho từng đơn hàng tại Việt Nam: shop online và nhân viên đóng gói quay video đóng hàng, người mua quay video bóc hàng khi nhận bưu kiện. Quét mã trên tem là quay, mỗi mã một video có in mã và ngày giờ quay, lưu đám mây cho nhóm và tìm lại bằng mã.
 
 Thông tin chính (cập nhật 25/10/2026):
 
-- Nền tảng: iPhone và iPad chạy iOS 17 trở lên (App Store, tên "ArgusCam: Packing Videos"). Bản Android 10 trở lên sắp có trên Google Play.
-- Cách dùng: đặt điện thoại ở bàn đóng hàng, bấm START SESSION, quét mã vận đơn để quay; quét mã tiếp theo thì video đơn trước tự kết thúc và được tải lên đám mây. Tối đa 10 phút cho một mã.
-- Mã quét được: Code 128, Code 39, EAN-13, QR. Mã được nhận diện ngay trên thiết bị.
-- Video: in mã đơn và ngày giờ quay lên từng khung hình; không có âm thanh. Chỉ quay khi ứng dụng đang mở trên màn hình.
-- Làm việc nhóm: chủ nhóm tạo nhóm, nhân viên tham gia bằng mã mời 6 ký tự (có thể đặt mật khẩu nhóm); cả nhóm dùng chung dung lượng và kho video.
-- Lưu trữ: Cloud. Thời hạn lưu tính từ lúc quay; khi hết hạn file video bị xoá, thông tin đơn vẫn tra cứu được.
-- Bảng giá (App Store Việt Nam): FREE 0đ – 1 GB, lưu 20 ngày, video có logo, không có thống kê; BASIC 29.000đ/tháng – 10 GB, lưu 30 ngày, có thống kê; PRO 79.000đ/tháng – 50 GB, lưu 60 ngày, có thống kê. Gói tự gia hạn hằng tháng qua App Store (bản Android sẽ dùng Google Play khi ra mắt).
-- Ngôn ngữ: tiếng Việt, tiếng Anh; có giọng nói báo bắt đầu và dừng.
+- Ai dùng:
+  - Shop online, kho, nhân viên đóng gói: quay video đóng hàng và video mở kiện hàng hoàn, làm bằng chứng khi khách hoặc sàn khiếu nại.
+  - Người mua hàng online: quay video bóc hàng (mở hàng, khui hàng) khi nhận bưu kiện, làm bằng chứng khi yêu cầu trả hàng, hoàn tiền.
+- Nền tảng: iPhone và iPad chạy iOS 17 trở lên (App Store). Bản Android 10 trở lên sắp có trên Google Play.
+- Cách dùng: bấm START SESSION, quét mã vạch hoặc mã QR trên tem để bắt đầu quay; quét mã khác thì video trước tự kết thúc và video mới bắt đầu; bấm STOP SESSION khi xong. Tối đa 10 phút cho một mã.
+- Mã quét được: Code 128, Code 39, EAN-13, QR (tem có cả hai thì ưu tiên mã QR). Mã được nhận diện ngay trên thiết bị.
+- Video: in mã quét được và ngày giờ quay (ngày/tháng giờ:phút:giây) lên từng khung hình; không có âm thanh; chỉ quay khi ứng dụng đang mở trên màn hình. Tải về máy hoặc chia sẻ qua menu Chia sẻ.
+- Nhóm: mỗi người bắt đầu bằng việc tạo nhóm của mình — dùng một mình cũng được; mời người nhà hoặc nhân viên bằng mã mời 6 ký tự (có thể đặt mật khẩu nhóm). Giá tính theo nhóm; cả nhóm dùng chung dung lượng và kho video. Mỗi tài khoản thuộc một nhóm tại một thời điểm.
+- Lưu trữ: đám mây; thời hạn lưu tính từ lúc quay; hết hạn thì file video bị xoá, mã và thời gian vẫn tra cứu được.
+- Bảng giá (App Store Việt Nam, kiểm tra 25/10/2026), tính cho cả nhóm: FREE 0đ – 1 GB, lưu 20 ngày, video có logo ArgusCam, không có thống kê; BASIC 29.000đ/tháng – 10 GB, lưu 30 ngày, không logo, có thống kê; PRO 79.000đ/tháng – 50 GB, lưu 60 ngày, không logo, có thống kê. Chủ nhóm thanh toán qua Apple ID, tự gia hạn hằng tháng, huỷ thì dùng đến hết kỳ đã trả.
+- Ngôn ngữ: tiếng Việt, tiếng Anh; có giọng nói báo khi bắt đầu và dừng.
 - Nhà phát triển: Huy Lê, nhà phát triển độc lập tại Việt Nam.
-- Liên hệ: arguscamvn@gmail.com · Thứ 2 – Thứ 7, 8:00 – 18:00 (GMT+7).
-- ArgusCam vẫn cung cấp phần mềm quay video đóng gói cho máy tính Windows theo yêu cầu (dùng webcam hoặc camera có sẵn, lưu video tại máy, liên hệ báo giá).
+- Liên hệ: arguscamvn@gmail.com · Zalo/điện thoại 0588855508 · Thứ 2 – Thứ 7, 8:00 – 18:00 (GMT+7).
+- Phần mềm quay video đóng gói cho máy tính Windows là sản phẩm riêng, cung cấp theo yêu cầu.
+
+Chưa có / giới hạn:
+
+- Không ghi âm; chỉ quay khi ứng dụng mở trên màn hình; tối đa 10 phút mỗi mã.
+- Android chưa có trên Google Play. Không có dùng thử gói trả phí (gói FREE là gói dùng thật).
+- Không có trang xem video trên máy tính, không xuất Excel, không đồng bộ đơn với sàn, không kết nối camera IP.
+- Mỗi tài khoản một nhóm. Cần có mạng khi mở ứng dụng.
+- ArgusCam không bảo đảm sàn hay đơn vị vận chuyển chấp nhận video; mỗi bên tự xét theo quy định.
 
 ## Trang chính
 
-- [Trang chủ](https://arguscam.io.vn/): ArgusCam là gì, cách dùng, tính năng, bảng giá, so sánh giải pháp, câu hỏi thường gặp.
-- [Phần mềm cho máy tính](https://arguscam.io.vn/phan-mem-may-tinh): Bản Windows dùng webcam hoặc camera có sẵn, lưu video tại máy, liên hệ báo giá.
-- [Giới thiệu](https://arguscam.io.vn/gioi-thieu): Câu chuyện sản phẩm và nhà sáng lập Huy Lê.
+- [Trang chủ – app quay video đóng hàng](https://arguscam.io.vn/): ArgusCam là gì, điểm khác biệt, cách quay video đóng hàng, bảng giá theo nhóm, so sánh, câu hỏi thường gặp.
+- [Quay video bóc hàng cho người mua](https://arguscam.io.vn/quay-video-boc-hang): Cách quay video bóc hàng có in mã và ngày giờ, video cần thấy gì, gửi video cho sàn, gói FREE.
+- [Giới thiệu](https://arguscam.io.vn/gioi-thieu): ArgusCam và nhà phát triển Huy Lê.
+- [Phần mềm cho máy tính (theo yêu cầu)](https://arguscam.io.vn/phan-mem-may-tinh): Bản Windows dùng webcam hoặc camera có sẵn, lưu video tại máy.
 - [Tải trên App Store](https://apps.apple.com/vn/app/arguscam-packing-videos/id6779910846): Ứng dụng ArgusCam cho iPhone và iPad.
 
-## Blog
+## Blog cho shop
 
-- [Quay video đóng hàng làm bằng chứng khiếu nại thiếu, sai hàng](https://arguscam.io.vn/blog/quay-video-dong-hang-bang-chung-khieu-nai): Vì sao video từng đơn là bằng chứng quan trọng khi khách khiếu nại thiếu, sai, vỡ hàng.
+- [Quay video đóng hàng làm bằng chứng khiếu nại thiếu, sai hàng](https://arguscam.io.vn/blog/quay-video-dong-hang-bang-chung-khieu-nai): Vì sao video từng đơn là bằng chứng quan trọng khi khách khiếu nại.
 - [Camera giám sát, app hay phần mềm: quay video đóng gói bằng gì?](https://arguscam.io.vn/blog/camera-giam-sat-hay-phan-mem-quay-video-dong-goi): So sánh camera an ninh, ứng dụng điện thoại và phần mềm máy tính.
 - [Cách chống bom hàng hiệu quả](https://arguscam.io.vn/blog/chong-bom-hang-hieu-qua-cho-shop-online): 7 cách giảm tỷ lệ bom hàng cho shop online.
-- [Quy trình xử lý khiếu nại đơn hàng COD](https://arguscam.io.vn/blog/quy-trinh-xu-ly-khieu-nai-don-hang-cod): 5 bước xử lý khiếu nại nhanh gọn.
+- [Quy trình xử lý khiếu nại đơn hàng COD](https://arguscam.io.vn/blog/quy-trinh-xu-ly-khieu-nai-don-hang-cod): 5 bước xử lý khiếu nại.
 - [7 sai lầm khi đóng gói hàng hoá](https://arguscam.io.vn/blog/sai-lam-thuong-gap-khi-dong-goi-hang-hoa): Lỗi đóng gói phổ biến và cách khắc phục.
+
+## Blog cho người mua
+
+- [Trả hàng Shopee có cần quay video không?](https://arguscam.io.vn/blog/tra-hang-shopee-co-can-quay-video-khong): Shopee yêu cầu gì, video mở hàng cần thấy gì, giới hạn 1 phút, 100 MB.
+- [Nhận hàng bị thiếu, sai hoặc vỡ: người mua nên làm gì?](https://arguscam.io.vn/blog/nhan-hang-bi-thieu-sai-vo-phai-lam-gi): 5 bước và thời hạn trả hàng trên Shopee, TikTok Shop, Lazada.
 
 ## Chính sách
 

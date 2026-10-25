@@ -1,3 +1,7 @@
 # Chuẩn hoá URL: trang index luôn 301 về thư mục gốc tương ứng
 /index.html       /        301
 /blog/index.html  /blog/   301
+
+# Trang tải cũ (/download) đã bỏ: 301 về trang phần mềm máy tính
+/download         /phan-mem-may-tinh  301
+/download.html    /phan-mem-may-tinh  301

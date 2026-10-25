@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /download.html
 
 Sitemap: https://arguscam.io.vn/sitemap.xml

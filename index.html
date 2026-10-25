@@ -1,700 +1,660 @@
 <!DOCTYPE html>
-<html lang="vi" prefix="og: https://ogp.me/ns#">
+<html lang="vi">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ArgusCam – Phần mềm quay video đóng gói &amp; truy xuất đơn hoàn</title>
-<meta name="description" content="ArgusCam – phần mềm quay video đóng gói đơn hàng, gắn mã vận đơn và truy xuất tức thì. Chạy siêu nhẹ, dữ liệu lưu riêng tư tại máy, không giới hạn số bàn đóng hàng. Giải pháp chống thất thoát đơn hoàn cho nhà bán hàng TMĐT.">
-<meta name="keywords" content="quay video đóng hàng, phần mềm đóng gói đơn hàng, truy xuất đơn hoàn, chống bom hàng, camera đóng gói, ArgusCam, TMĐT">
-<meta name="robots" content="index, follow">
-<meta name="author" content="ArgusCam">
-<meta name="theme-color" content="#1B6CA8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ArgusCam – App quay video đóng gói, đóng hàng theo mã vận đơn</title>
+<meta name="description" content="Quét mã vận đơn là quay, mỗi đơn một video có in mã và giờ quay, lưu đám mây cho cả nhóm, tìm lại trong vài giây. Miễn phí 1 GB trên iPhone, iPad.">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://arguscam.io.vn/">
-
-<!-- Open Graph -->
+<meta name="theme-color" content="#143A5A">
+<meta name="apple-itunes-app" content="app-id=6779910846">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="ArgusCam">
 <meta property="og:locale" content="vi_VN">
 <meta property="og:url" content="https://arguscam.io.vn/">
-<meta property="og:title" content="ArgusCam – Phần mềm quay video đóng gói &amp; truy xuất đơn hoàn">
-<meta property="og:description" content="Quay video đóng gói từng đơn, gắn mã vận đơn, truy xuất tức thì. Chạy siêu nhẹ, dữ liệu riêng tư, không giới hạn số bàn đóng hàng.">
-<meta property="og:image" content="https://arguscam.io.vn/logo.png">
-<meta property="og:image:alt" content="ArgusCam">
-
-<!-- Twitter Card -->
+<meta property="og:title" content="ArgusCam – App quay video đóng gói, đóng hàng theo mã vận đơn">
+<meta property="og:description" content="Quét mã vận đơn là quay, mỗi đơn một video có in mã và giờ quay, lưu đám mây cho cả nhóm, tìm lại trong vài giây. Miễn phí 1 GB trên iPhone, iPad.">
+<meta property="og:image" content="https://arguscam.io.vn/assets/og/home.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ArgusCam – ứng dụng quay video đóng gói theo mã vận đơn">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="ArgusCam – Phần mềm quay video đóng gói &amp; truy xuất đơn hoàn">
-<meta name="twitter:description" content="Quay video đóng gói từng đơn, gắn mã vận đơn, truy xuất tức thì. Chạy siêu nhẹ, dữ liệu riêng tư, không giới hạn số bàn đóng hàng.">
-<meta name="twitter:image" content="https://arguscam.io.vn/logo.png">
-
-<link rel="icon" type="image/png" href="logo.png">
-<link rel="apple-touch-icon" href="logo.png">
-
-<!-- Structured data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "ArgusCam",
-  "url": "https://arguscam.io.vn/",
-  "logo": "https://arguscam.io.vn/logo.png",
-  "description": "Phần mềm quay video đóng hàng & truy xuất nhanh cho nhà bán hàng TMĐT."
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "MobileApplication",
-  "name": "ArgusCam",
-  "operatingSystem": "iOS",
-  "applicationCategory": "BusinessApplication",
-  "url": "https://arguscam.io.vn/",
-  "downloadUrl": "https://apps.apple.com/app/id6779910846",
-  "installUrl": "https://apps.apple.com/app/id6779910846",
-  "image": "https://arguscam.io.vn/logo.png",
-  "description": "Ứng dụng ArgusCam cho iPhone: quay video đóng hàng theo mã vận đơn, truy xuất tức thì và lưu video trên đám mây để đồng bộ cả nhóm.",
-  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "VND"}
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {"@type":"Question","name":"ArgusCam có nặng máy không?","acceptedAnswer":{"@type":"Answer","text":"Không. Phần mềm được tối ưu để chạy siêu nhẹ, gần như không tốn tài nguyên. Máy tính văn phòng phổ thông vẫn vừa quay video vừa làm việc khác mượt mà."}},
-    {"@type":"Question","name":"Tôi có nhiều bàn đóng hàng thì sao?","acceptedAnswer":{"@type":"Answer","text":"ArgusCam không giới hạn số bàn đóng hàng. Cửa hàng có bao nhiêu vị trí, bao nhiêu người đóng gói cùng lúc đều dùng được, không bị tính thêm phí theo bàn."}},
-    {"@type":"Question","name":"Video lưu ở đâu? Có an toàn không?","acceptedAnswer":{"@type":"Answer","text":"Toàn bộ video lưu ngay trên ổ cứng máy tính của bạn. ArgusCam không tải dữ liệu lên đám mây, nên bạn hoàn toàn làm chủ dữ liệu và không lo lộ thông tin."}},
-    {"@type":"Question","name":"Có giới hạn dung lượng lưu trữ không?","acceptedAnswer":{"@type":"Answer","text":"Không giới hạn theo gói. Bạn lưu được bao nhiêu video là tùy dung lượng ổ cứng của máy, không phải trả phí lưu trữ hàng tháng."}},
-    {"@type":"Question","name":"Cần thiết bị gì để chạy ArgusCam?","acceptedAnswer":{"@type":"Answer","text":"Một máy tính văn phòng phổ thông kèm webcam là đủ. Không cần đầu tư hệ thống camera chuyên dụng đắt tiền. Đội ngũ ArgusCam sẽ tư vấn thiết bị phù hợp khi bạn liên hệ."}},
-    {"@type":"Question","name":"ArgusCam có bản trên điện thoại không?","acceptedAnswer":{"@type":"Answer","text":"Có. ArgusCam App cho di động đã ra mắt trên App Store và Google Play, hỗ trợ quay video theo mã vận đơn, truy xuất tức thì và lưu video trên đám mây để đồng bộ cả nhóm."}}
-  ]
-}
-</script>
+<meta name="twitter:title" content="ArgusCam – App quay video đóng gói, đóng hàng theo mã vận đơn">
+<meta name="twitter:description" content="Quét mã vận đơn là quay, mỗi đơn một video có in mã và giờ quay, lưu đám mây cho cả nhóm, tìm lại trong vài giây. Miễn phí 1 GB trên iPhone, iPad.">
+<meta name="twitter:image" content="https://arguscam.io.vn/assets/og/home.jpg">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/assets/img/favicon-96.png" type="image/png" sizes="96x96">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --xanh:#1B6CA8;
-    --xanh-dam:#114E7E;
-    --xanh-nhat:#EAF3FB;
-    --xanh-vien:#C7E0F2;
-    --navy:#143A5A;
-    --den:#15212E;
-    --xam:#566373;
-    --xam-nhat:#F4F7FA;
-    --trang:#FFFFFF;
-    --bo-goc:16px;
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="/assets/site.css?v=20261025">
+<link rel="preload" as="image" href="/assets/img/app/android-1.webp" fetchpriority="high" media="(min-width: 901px)">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://arguscam.io.vn/#organization",
+   "name": "ArgusCam",
+   "url": "https://arguscam.io.vn/",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://arguscam.io.vn/assets/img/icon-512.png",
+    "width": 512,
+    "height": 512
+   },
+   "email": "arguscamvn@gmail.com",
+   "founder": {
+    "@id": "https://arguscam.io.vn/#huy-le"
+   },
+   "description": "ArgusCam làm ứng dụng quay video đóng gói theo mã vận đơn cho nhà bán hàng online tại Việt Nam.",
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "telephone": "+84588855508",
+    "email": "arguscamvn@gmail.com",
+    "areaServed": "VN",
+    "availableLanguage": [
+     "vi",
+     "en"
+    ],
+    "hoursAvailable": {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+     ],
+     "opens": "08:00",
+     "closes": "18:00"
+    }
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://arguscam.io.vn/#huy-le",
+   "name": "Huy Lê",
+   "jobTitle": "Nhà sáng lập ArgusCam",
+   "image": "https://arguscam.io.vn/assets/img/huy-le.webp",
+   "worksFor": {
+    "@id": "https://arguscam.io.vn/#organization"
+   },
+   "url": "https://arguscam.io.vn/gioi-thieu"
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://arguscam.io.vn/#website",
+   "url": "https://arguscam.io.vn/",
+   "name": "ArgusCam",
+   "inLanguage": "vi-VN",
+   "publisher": {
+    "@id": "https://arguscam.io.vn/#organization"
+   }
+  },
+  {
+   "@type": "WebPage",
+   "@id": "https://arguscam.io.vn/#webpage",
+   "url": "https://arguscam.io.vn/",
+   "name": "ArgusCam – App quay video đóng gói, đóng hàng theo mã vận đơn",
+   "description": "Quét mã vận đơn là quay, mỗi đơn một video có in mã và giờ quay, lưu đám mây cho cả nhóm, tìm lại trong vài giây. Miễn phí 1 GB trên iPhone, iPad.",
+   "inLanguage": "vi-VN",
+   "isPartOf": {
+    "@id": "https://arguscam.io.vn/#website"
+   },
+   "about": {
+    "@id": "https://arguscam.io.vn/#app"
+   },
+   "dateModified": "2026-10-25",
+   "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "https://arguscam.io.vn/assets/og/home.jpg",
+    "width": 1200,
+    "height": 630
+   }
+  },
+  {
+   "@type": "MobileApplication",
+   "@id": "https://arguscam.io.vn/#app",
+   "name": "ArgusCam",
+   "alternateName": "ArgusCam: Packing Videos",
+   "description": "Ứng dụng quay video đóng gói đơn hàng theo mã vận đơn: quét mã là quay, mỗi đơn một video có in mã đơn và thời gian, lưu đám mây dùng chung cho cả nhóm và tìm lại theo mã đơn.",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "iOS 17.0 trở lên, iPadOS 17.0 trở lên",
+   "inLanguage": [
+    "vi",
+    "en"
+   ],
+   "url": "https://arguscam.io.vn/",
+   "installUrl": "https://apps.apple.com/vn/app/arguscam-packing-videos/id6779910846",
+   "downloadUrl": "https://apps.apple.com/vn/app/arguscam-packing-videos/id6779910846",
+   "image": "https://arguscam.io.vn/assets/img/icon-512.png",
+   "screenshot": [
+    "https://arguscam.io.vn/assets/img/app/ios-1.webp",
+    "https://arguscam.io.vn/assets/img/app/ios-2.webp",
+    "https://arguscam.io.vn/assets/img/app/ios-3.webp",
+    "https://arguscam.io.vn/assets/img/app/ios-4.webp",
+    "https://arguscam.io.vn/assets/img/app/ios-5.webp"
+   ],
+   "author": {
+    "@id": "https://arguscam.io.vn/#huy-le"
+   },
+   "publisher": {
+    "@id": "https://arguscam.io.vn/#organization"
+   },
+   "featureList": [
+    "Quét mã là quay",
+    "Mỗi đơn một video",
+    "In mã đơn và giờ quay lên video",
+    "Tìm lại trong vài giây",
+    "Làm việc theo nhóm",
+    "Thống kê năng suất",
+    "Tự tải lên đám mây",
+    "Tải về và chia sẻ",
+    "Tiếng Việt, có giọng nói"
+   ],
+   "offers": [
+    {
+     "@type": "Offer",
+     "name": "Gói FREE",
+     "price": "0",
+     "priceCurrency": "VND",
+     "description": "1 GB dung lượng cho cả nhóm, lưu video 20 ngày, video có logo ArgusCam"
+    },
+    {
+     "@type": "Offer",
+     "name": "Gói BASIC",
+     "price": "29000",
+     "priceCurrency": "VND",
+     "description": "10 GB dung lượng, lưu video 30 ngày, có thống kê, gia hạn hằng tháng",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "29000",
+      "priceCurrency": "VND",
+      "billingDuration": "P1M",
+      "unitText": "tháng"
+     }
+    },
+    {
+     "@type": "Offer",
+     "name": "Gói PRO",
+     "price": "79000",
+     "priceCurrency": "VND",
+     "description": "50 GB dung lượng, lưu video 60 ngày, có thống kê, gia hạn hằng tháng",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": "79000",
+      "priceCurrency": "VND",
+      "billingDuration": "P1M",
+      "unitText": "tháng"
+     }
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://arguscam.io.vn/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "ArgusCam có miễn phí không?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Có. Gói FREE miễn phí, không giới hạn thời gian dùng, có 1 GB dung lượng cho cả nhóm và lưu mỗi video 20 ngày; video của gói FREE có logo ArgusCam. Khi cần nhiều hơn, chủ nhóm nâng cấp lên BASIC (29.000đ/tháng, 10 GB, lưu 30 ngày) hoặc PRO (79.000đ/tháng, 50 GB, lưu 60 ngày)."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "ArgusCam chạy trên điện thoại nào?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "iPhone và iPad chạy iOS 17 trở lên, tải trên App Store. Bản Android dành cho Android 10 trở lên và sắp có trên Google Play. Thiết bị cần có camera sau."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "ArgusCam quét được những loại mã nào?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Code 128, Code 39, EAN-13 và mã QR. Đây là các loại mã vạch thường in trên tem vận đơn và tem đơn hàng. Nếu tem có cả mã QR lẫn mã vạch, ứng dụng ưu tiên mã QR."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Video được lưu ở đâu và trong bao lâu?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Video được ghi vào máy trước, sau đó tự tải lên kho lưu trữ đám mây Cloudflare R2 dùng chung của nhóm, và bản trên máy được xoá khi tải xong. Thời hạn lưu tính từ lúc quay: 20 ngày với gói FREE, 30 ngày với BASIC, 60 ngày với PRO. Khi hết hạn, file video bị xoá nhưng mã đơn, thời gian và người quay vẫn tra cứu được. Video quan trọng nên tải về máy trước khi hết hạn."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Mỗi video quay được tối đa bao lâu?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Tối đa 10 phút cho một mã đơn. Quá 10 phút, phiên quay tự dừng và bạn bấm START SESSION để quay tiếp."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Nhiều nhân viên có dùng chung được không?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Được. Chủ nhóm tạo nhóm và gửi mã mời 6 ký tự cho nhân viên, có thể đặt thêm mật khẩu nhóm. Cả nhóm dùng chung dung lượng và tìm được video của nhau. Chủ nhóm quản lý thành viên, mật khẩu và gói. Mỗi tài khoản chỉ thuộc một nhóm tại một thời điểm."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Mất mạng có quay được không?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Nếu mạng rớt trong lúc đang dùng, ứng dụng vẫn quay và giữ video trên máy. Video chưa tải lên được sẽ hiện trong tab Đơn; khi có mạng lại, bấm Thử lại hoặc tắt hẳn rồi mở lại ứng dụng để tải lên. Tuy vậy, cần có mạng lúc mở ứng dụng để đăng nhập và vào màn hình quay."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Ứng dụng có quay khi khoá màn hình hoặc chạy nền không?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Không. ArgusCam chỉ quay khi ứng dụng đang mở trên màn hình. Khi bạn chuyển sang ứng dụng khác hoặc khoá máy, phiên quay tự dừng. Việc tải video đã quay lên đám mây vẫn tiếp tục ở chế độ nền."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Video có ghi âm không?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Không. ArgusCam chỉ ghi hình, video không có âm thanh."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Video ArgusCam có dùng để khiếu nại với sàn được không?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Video ghi liên tục quá trình đóng gói và in mã đơn cùng thời gian trên từng khung hình, nên phù hợp để làm bằng chứng gửi kèm khi khiếu nại. Mỗi sàn và đơn vị vận chuyển có quy định riêng về video bằng chứng, vì vậy bạn nên đọc quy định hiện hành của họ trước khi gửi."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Làm sao để huỷ gói trả phí?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Gói BASIC và PRO tự gia hạn hằng tháng qua App Store (bản Android sẽ dùng Google Play khi ra mắt). Chủ nhóm huỷ trong mục Đăng ký (Subscriptions) của Apple ID, hoặc của tài khoản Google Play nếu mua trên Android. Gói vẫn dùng được đến hết kỳ đã thanh toán."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "ArgusCam có phần mềm cho máy tính không?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Có. ArgusCam vẫn cung cấp phần mềm quay video đóng gói cho máy tính Windows, dùng webcam hoặc camera có sẵn và lưu video tại máy. Xem chi tiết và đăng ký báo giá tại trang phần mềm máy tính."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Dữ liệu của tôi có an toàn không?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Video chỉ thành viên trong nhóm xem được. Ứng dụng không chứa quảng cáo và không bán dữ liệu của bạn. Bạn có thể xoá tài khoản ngay trong ứng dụng. Chi tiết xem tại Chính sách bảo mật."
+     }
+    }
+   ]
   }
-  *{margin:0;padding:0;box-sizing:border-box}
-  html{scroll-behavior:smooth}
-  body{font-family:'Be Vietnam Pro',system-ui,sans-serif;color:var(--den);background:var(--trang);line-height:1.6}
-  img{max-width:100%;display:block}
-  a{text-decoration:none;color:inherit}
-  .khung{max-width:1120px;margin:0 auto;padding:0 20px}
-  .nhan{display:inline-block;background:var(--xanh-nhat);color:var(--xanh-dam);font-size:13px;font-weight:600;padding:6px 16px;border-radius:999px;margin-bottom:14px}
-  h2.tieude{font-size:clamp(24px,4vw,34px);font-weight:800;text-align:center;line-height:1.3}
-  .mota-tieude{text-align:center;color:var(--xam);max-width:660px;margin:12px auto 0;font-size:15px}
-  .nut{display:inline-block;padding:13px 28px;border-radius:10px;font-weight:600;font-size:15px;cursor:pointer;border:none;transition:.2s;text-align:center}
-  .nut-xanh{background:var(--xanh);color:#fff}
-  .nut-xanh:hover{background:var(--xanh-dam)}
-  .nut-vien{background:#fff;color:var(--xanh-dam);border:1.5px solid var(--xanh)}
-  .nut-vien:hover{background:var(--xanh-nhat)}
-  section{padding:72px 0}
-
-  /* NAV */
-  nav{position:sticky;top:0;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid #eee;z-index:50}
-  .nav-trong{display:flex;align-items:center;justify-content:space-between;height:64px}
-  .logo{display:flex;align-items:center}
-  .logo img{height:52px;width:auto;display:block}
-  .nav-links{display:flex;gap:24px;font-size:14px;font-weight:500;color:var(--xam)}
-  .nav-links a:hover{color:var(--xanh-dam)}
-  @media(max-width:820px){.nav-links{display:none}}
-
-  /* HERO */
-  .hero{background:linear-gradient(180deg,#EFF6FC 0%,#DCEBF7 60%,#fff 100%);text-align:center;padding:80px 0 56px}
-  .hero h1{font-size:clamp(30px,5.5vw,48px);font-weight:800;line-height:1.22}
-  .hero h1 .xanh{color:var(--xanh)}
-  .hero p{max-width:690px;margin:18px auto 28px;color:var(--xam);font-size:16px}
-  .hero-nut{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
-  .hero-chip{display:inline-flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-top:26px}
-  .chip{background:#fff;border:1px solid var(--xanh-vien);border-radius:999px;padding:8px 16px;font-size:13px;font-weight:600;color:var(--xanh-dam)}
-  .hero-mh{margin:46px auto 0;max-width:780px;background:#fff;border:1px solid var(--xanh-vien);border-radius:20px;padding:30px;box-shadow:0 18px 46px rgba(27,108,168,.14);display:flex;align-items:center;justify-content:center;gap:22px;flex-wrap:wrap;font-size:40px}
-  .hero-mh .mt{font-size:24px;color:var(--xanh)}
-
-  /* NỖI ĐAU */
-  .noidau-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:start;margin-top:40px}
-  @media(max-width:820px){.noidau-grid{grid-template-columns:1fr}}
-  .noidau-trai h3{font-size:26px;font-weight:800;line-height:1.35;margin-bottom:14px}
-  .noidau-trai p{color:var(--xam);font-size:15px;margin-bottom:24px}
-  .the-noidau{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-  @media(max-width:480px){.the-noidau{grid-template-columns:1fr}}
-  .the{background:#fff;border-radius:var(--bo-goc);padding:22px;border:1px solid #ECEEF2}
-  .the .icon{width:42px;height:42px;border-radius:10px;background:var(--xanh-nhat);display:flex;align-items:center;justify-content:center;font-size:20px;margin-bottom:12px}
-  .the h4{font-size:15px;font-weight:700;margin-bottom:6px}
-  .the p{font-size:13.5px;color:var(--xam)}
-
-  /* ƯU ĐIỂM PC */
-  .uudiem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}
-  @media(max-width:900px){.uudiem-grid{grid-template-columns:repeat(2,1fr)}}
-  @media(max-width:560px){.uudiem-grid{grid-template-columns:1fr}}
-  .ud{background:#fff;border:1px solid #ECEEF2;border-radius:16px;padding:26px}
-  .ud .icon{width:48px;height:48px;border-radius:12px;background:var(--xanh-nhat);display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:14px}
-  .ud h4{font-size:16px;font-weight:700;margin-bottom:7px}
-  .ud p{font-size:14px;color:var(--xam)}
-
-  /* ĐIỂM NHẤN: KHÔNG GIỚI HẠN SỐ BÀN */
-  .banner{background:linear-gradient(150deg,#1B4A72,var(--navy));color:#fff;border-radius:22px;padding:44px;display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center;margin-top:40px}
-  @media(max-width:820px){.banner{grid-template-columns:1fr;padding:32px}}
-  .banner h3{font-size:26px;font-weight:800;line-height:1.3;margin-bottom:12px}
-  .banner p{font-size:15px;opacity:.92}
-  .ban-luoi{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-  .ban-o{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);border-radius:14px;padding:18px 10px;text-align:center}
-  .ban-o .bt{font-size:30px}
-  .ban-o b{display:block;font-size:13px;margin-top:6px}
-  .ban-o.them{display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:800;opacity:.85;background:rgba(255,255,255,.06)}
-
-  /* CALLOUT */
-  .callout{margin-top:20px;background:#fff;border:1px solid var(--xanh-vien);border-left:4px solid var(--xanh);border-radius:14px;padding:20px 24px;display:flex;align-items:center;gap:18px}
-  .callout .bt{font-size:34px;flex:none}
-  .callout b{display:block;font-size:15.5px;margin-bottom:3px}
-  .callout span{font-size:13.5px;color:var(--xam)}
-
-  /* CHI TIẾT PC */
-  .hang{display:grid;grid-template-columns:1fr 1fr;gap:46px;align-items:center;margin-top:40px}
-  @media(max-width:820px){.hang{grid-template-columns:1fr}}
-  .minh-hoa{background:var(--xanh-nhat);border:1px solid var(--xanh-vien);border-radius:18px;min-height:260px;display:flex;align-items:center;justify-content:center;font-size:72px}
-  .noidung .nhan-nho{color:var(--xanh-dam);font-weight:700;font-size:12.5px;text-transform:uppercase;letter-spacing:.5px}
-  .noidung h3{font-size:24px;font-weight:800;margin:8px 0 14px}
-  .noidung ul{list-style:none}
-  .noidung li{position:relative;padding-left:28px;margin-bottom:11px;color:var(--xam);font-size:14.5px}
-  .noidung li::before{content:"✓";position:absolute;left:0;top:0;width:19px;height:19px;border-radius:50%;background:var(--xanh);color:#fff;font-size:11px;display:flex;align-items:center;justify-content:center;font-weight:700}
-
-  /* BẢNG GIÁ PC */
-  .pc-card{max-width:820px;margin:40px auto 0;background:linear-gradient(135deg,#1B4A72,var(--navy));color:#fff;border-radius:22px;padding:38px;display:grid;grid-template-columns:1.4fr 1fr;gap:32px;align-items:center}
-  @media(max-width:640px){.pc-card{grid-template-columns:1fr;text-align:center}}
-  .pc-card h4{font-size:22px;font-weight:800;margin-bottom:12px}
-  .pc-card ul{list-style:none}
-  .pc-card li{position:relative;padding-left:24px;margin-bottom:9px;font-size:14px;opacity:.95}
-  .pc-card li::before{content:"✓";position:absolute;left:0;font-weight:700}
-  .pc-card .gia-phai{text-align:center}
-  .pc-card .gia-phai .so{font-size:24px;font-weight:800;margin-bottom:4px}
-  .pc-card .gia-phai small{display:block;font-size:13px;opacity:.85;margin-bottom:16px}
-  .pc-card .nut{background:#fff;color:var(--navy);width:100%}
-
-  /* APP iOS */
-  .app-ios{background:linear-gradient(180deg,#1B4A72 0%,var(--navy) 60%,#0E2A45 100%);color:#fff}
-  .app-ios .nhan-app{display:inline-block;background:rgba(255,255,255,.12);color:#fff;font-size:13px;font-weight:600;padding:6px 16px;border-radius:999px;margin-bottom:14px}
-  .app-ios h2{font-size:clamp(24px,4vw,34px);font-weight:800;text-align:center;line-height:1.3}
-  .app-ios .mota{text-align:center;color:rgba(255,255,255,.82);max-width:620px;margin:12px auto 0;font-size:15px}
-  .app-cta{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:24px}
-  .app-store-btn{display:inline-flex;align-items:center;gap:12px;background:#000;border:1px solid rgba(255,255,255,.28);color:#fff;padding:11px 22px;border-radius:14px;transition:.2s}
-  .app-store-btn:hover{background:#161616;transform:translateY(-2px)}
-  .app-store-btn svg{width:28px;height:28px;flex:none}
-  .app-store-btn small{display:block;font-size:10.5px;opacity:.85;line-height:1.25}
-  .app-store-btn b{display:block;font-size:17px;font-weight:700;line-height:1.25}
-  .app-gallery{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:36px 4px 16px;margin-top:6px;scrollbar-width:thin}
-  .app-gallery::-webkit-scrollbar{height:8px}
-  .app-gallery::-webkit-scrollbar-thumb{background:rgba(255,255,255,.28);border-radius:999px}
-  .app-gallery::-webkit-scrollbar-track{background:transparent}
-  .app-gallery img{height:580px;width:auto;border-radius:22px;scroll-snap-align:center;flex:none;box-shadow:0 18px 44px rgba(0,0,0,.45);border:1px solid rgba(255,255,255,.12)}
-  @media(max-width:560px){.app-gallery img{height:440px}}
-  .app-hint{text-align:center;font-size:12.5px;color:rgba(255,255,255,.6);margin-top:4px}
-
-  /* NGƯỜI SÁNG LẬP */
-  .sl-grid{display:grid;grid-template-columns:340px 1fr;gap:56px;align-items:center;max-width:1000px;margin:44px auto 0}
-  @media(max-width:820px){.sl-grid{grid-template-columns:1fr;gap:28px;max-width:460px;text-align:center}}
-  .sl-anh{position:relative}
-  .sl-anh img{width:100%;border-radius:20px;border:1px solid var(--xanh-vien);box-shadow:0 22px 50px rgba(27,108,168,.20);aspect-ratio:4/5;object-fit:cover;background:var(--xanh-nhat)}
-  .sl-badge{position:absolute;left:16px;bottom:16px;right:16px;background:rgba(255,255,255,.96);border:1px solid var(--xanh-vien);border-radius:14px;padding:12px 16px;box-shadow:0 10px 26px rgba(27,108,168,.16)}
-  .sl-badge b{display:block;font-size:16px;color:var(--den)}
-  .sl-badge span{font-size:12.5px;color:var(--xam)}
-  .sl-noidung .vaitro{color:var(--xanh-dam);font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.5px}
-  .sl-noidung h3{font-size:28px;font-weight:800;margin:6px 0 18px}
-  .sl-quote{border-left:4px solid var(--xanh);padding:6px 0 6px 22px;font-style:italic;color:var(--navy);font-size:21px;line-height:1.55;font-weight:500}
-  @media(max-width:820px){.sl-quote{border-left:none;padding:0;font-size:18px}}
-  .sl-bangcap{margin-top:22px;font-size:15px;color:var(--xam);font-weight:600}
-
-  /* LIÊN HỆ */
-  .lienhe{background:var(--xam-nhat)}
-  .lienhe-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;margin-top:40px}
-  @media(max-width:820px){.lienhe-grid{grid-template-columns:1fr}}
-  .lh-thongtin h3{font-size:24px;font-weight:800;margin-bottom:18px}
-  .lh-dong{display:flex;gap:12px;margin-bottom:16px;font-size:14.5px;color:var(--xam)}
-  .lh-dong .icon{flex:none;width:38px;height:38px;border-radius:10px;background:var(--xanh-nhat);display:flex;align-items:center;justify-content:center;font-size:17px}
-  .lh-dong b{color:var(--den);display:block;font-size:14px}
-  .form{background:#fff;border-radius:18px;padding:30px;border:1px solid #ECEEF2}
-  .form h3{font-size:20px;font-weight:800;margin-bottom:18px}
-  .form label{font-size:13px;font-weight:600;display:block;margin:14px 0 6px}
-  .form input,.form select,.form textarea{width:100%;padding:11px 14px;border:1.5px solid #E2E5EA;border-radius:10px;font-family:inherit;font-size:14px;outline:none}
-  .form input:focus,.form select:focus,.form textarea:focus{border-color:var(--xanh)}
-  .form .nut{width:100%;margin-top:20px}
-  .form .ghichu{font-size:12px;color:var(--xam);margin-top:10px;text-align:center}
-
-  /* TESTIMONIAL */
-  .nhanxet-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:42px}
-  @media(max-width:820px){.nhanxet-grid{grid-template-columns:1fr}}
-  .nhanxet{background:#fff;border:1px solid #ECEEF2;border-radius:16px;padding:24px}
-  .sao{color:#F59E0B;font-size:15px;margin-bottom:10px;letter-spacing:2px}
-  .nhanxet p{font-size:14px;color:var(--xam);font-style:italic;margin-bottom:16px}
-  .nguoi{display:flex;align-items:center;gap:11px}
-  .avatar{width:40px;height:40px;border-radius:50%;background:var(--xanh-nhat);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--xanh-dam)}
-  .nguoi b{font-size:14px;display:block}
-  .nguoi span{font-size:12.5px;color:var(--xam)}
-
-  /* CTA */
-  .cta-cuoi{background:linear-gradient(135deg,var(--xanh),#2E8BCB);text-align:center;border-radius:24px;padding:60px 24px;color:#fff;margin:0 20px}
-  .cta-cuoi h2{font-size:clamp(24px,4vw,34px);font-weight:800;margin-bottom:12px}
-  .cta-cuoi p{opacity:.92;max-width:560px;margin:0 auto 26px;font-size:15px}
-  .cta-cuoi .nut{background:#fff;color:var(--xanh-dam)}
-  .cta-cuoi .nut:hover{background:var(--xanh-nhat)}
-
-  /* FAQ */
-  .faq-ds{max-width:760px;margin:38px auto 0}
-  .faq-muc{border:1px solid #ECEEF2;border-radius:13px;margin-bottom:12px;overflow:hidden;background:#fff}
-  .faq-hoi{width:100%;background:none;border:none;font-family:inherit;font-size:15px;font-weight:600;text-align:left;padding:18px 20px;display:flex;justify-content:space-between;align-items:center;gap:14px;cursor:pointer;color:var(--den)}
-  .faq-hoi .dau{flex:none;width:26px;height:26px;border-radius:50%;background:var(--xanh-nhat);color:var(--xanh-dam);display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;transition:.25s}
-  .faq-muc.mo .faq-hoi .dau{transform:rotate(45deg);background:var(--xanh);color:#fff}
-  .faq-dap{max-height:0;overflow:hidden;transition:max-height .3s ease}
-  .faq-dap p{padding:0 20px 18px;font-size:14px;color:var(--xam)}
-
-  /* FOOTER */
-  footer{background:#11202E;color:#9FB0C0;padding:54px 0 26px;margin-top:72px}
-  .ft-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:30px}
-  @media(max-width:760px){.ft-grid{grid-template-columns:1fr 1fr}}
-  footer .logo{color:#fff;font-size:22px;font-weight:800}
-  footer .logo .xanh{color:#4FA8DC}
-  footer h5{color:#fff;font-size:14px;margin-bottom:14px}
-  footer a{display:block;font-size:14px;margin-bottom:9px;color:#A9BAC9}
-  footer a:hover{color:#4FA8DC}
-  .ft-duoi{border-top:1px solid #233340;margin-top:38px;padding-top:20px;font-size:12.5px;text-align:center;color:#6E7E8C}
-  @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
-</style>
+ ]
+}
+</script>
 </head>
 <body>
-
-<!-- NAV -->
-<nav>
+<a class="bo-qua" href="#noi-dung">Bỏ qua, tới nội dung chính</a>
+<header class="nav">
   <div class="khung nav-trong">
-    <a href="#" class="logo"><img src="logo.png" alt="ArgusCam"></a>
-    <div class="nav-links">
-      <a href="#tinhnang">Tính năng</a>
-      <a href="#uudiem">Ưu điểm</a>
-      <a href="#banggia">Bảng giá</a>
-      <a href="#lienhe">Liên hệ</a>
-      <a href="#faq">FAQ</a>
-      <a href="blog/index.html">Blog</a>
-      <a href="download.html">Tải xuống</a>
+    <a href="/" class="logo" aria-label="ArgusCam – Trang chủ"><img src="/assets/img/mark-navy.png" alt="" width="35" height="40"><span>Argus<b>Cam</b></span></a>
+    <nav class="nav-links" aria-label="Điều hướng chính"><a href="/#tinh-nang">Tính năng</a><a href="/#cach-dung">Cách dùng</a><a href="/#bang-gia">Bảng giá</a><a href="/phan-mem-may-tinh">Bản máy tính</a><a href="/blog/">Blog</a><a href="/#faq">Hỏi đáp</a></nav>
+    <div class="nav-phai">
+      <a href="/#tai-app" class="nut nut-xanh">Tải app</a>
+      <details class="menu"><summary aria-label="Mở menu"><span></span></summary><nav class="menu-ds" aria-label="Menu di động"><a href="/#tai-app">Tải app</a><a href="/#tinh-nang">Tính năng</a><a href="/#cach-dung">Cách dùng</a><a href="/#bang-gia">Bảng giá</a><a href="/phan-mem-may-tinh">Bản máy tính</a><a href="/blog/">Blog</a><a href="/#faq">Hỏi đáp</a><a href="/#lien-he">Liên hệ</a></nav></details>
     </div>
-    <a href="#lienhe" class="nut nut-xanh" style="padding:10px 20px;font-size:14px">Tư vấn ngay</a>
-  </div>
-</nav>
-
-<!-- HERO -->
-<header class="hero">
-  <div class="khung">
-    <span class="nhan">📦 Giải pháp quay video đóng gói hàng hóa và khui hàng hoàn dành cho nhà bán hàng online</span>
-    <h1>Ghi lại từng đơn hàng,<br><span class="xanh">truy xuất tức thì</span><br>đối soát dễ dàng khi cần</h1>
-    <p>ArgusCam - Giải pháp ghi lại quá trình đóng gói và khui hàng hoàn, giúp cửa hàng lưu trữ bằng chứng rõ ràng để đối soát và xử lý các khiếu nại phát sinh. Chạy siêu nhẹ, dữ liệu lưu ngay tại máy bạn — riêng tư và chuyên nghiệp. Hỗ trợ nhiều bàn, nhiều camera và tương thích hầu hết camera phổ thông trên thị trường.</p>
-    <div class="hero-nut">
-      <a href="#lienhe" class="nut nut-xanh">Nhận tư vấn &amp; báo giá</a>
-      <a href="#tinhnang" class="nut nut-vien">Xem tính năng</a>
-    </div>
-    <div class="hero-chip">
-      <span class="chip">⚡ Chạy siêu nhẹ</span>
-      <span class="chip">🔒 Dữ liệu riêng tư</span>
-      <span class="chip">♾️ Không giới hạn số bàn</span>
-    </div>
-    <div class="hero-mh">📦 <span class="mt">➜</span> 🎥 <span class="mt">➜</span> 🖥️ <span class="mt">➜</span> 🔍</div>
   </div>
 </header>
+<main id="noi-dung">
 
-<!-- NỖI ĐAU -->
-<section style="background:var(--xam-nhat)">
-  <div class="khung">
-    <div class="noidau-grid">
-      <div class="noidau-trai">
-        <span class="nhan">Vấn đề nhà bán hàng đang gặp</span>
-        <h3>Chi phí phát sinh từ các đơn hoàn trả ngày càng gia tăng</h3>
-        <p>Người bán thường gặp các trường hợp như khách yêu cầu trả hàng, phản ánh thiếu sản phẩm, hàng hư hỏng hoặc phát sinh tranh chấp. Nếu không có đầy đủ bằng chứng đối soát, việc xử lý khiếu nại có thể tốn nhiều thời gian và chi phí</p>
-        <a href="#tinhnang" class="nut nut-xanh">Xem giải pháp →</a>
-      </div>
-      <div class="the-noidau">
-        <div class="the"><div class="icon">💸</div><h4>Mất hàng mất tiền</h4><p>Đơn bị bom hoặc thất lạc, shop vừa mất hàng vừa mất phí vận chuyển.</p></div>
-        <div class="the"><div class="icon">🔄</div><h4>Tráo hàng</h4><p>Người mua hoàn trả sản phẩm khác, hàng giả hoặc đã qua sử dụng.</p></div>
-        <div class="the"><div class="icon">⭐</div><h4>Bị đánh giá thấp</h4><p>Shop bị đánh giá tiêu cực dù không có lỗi, ảnh hưởng uy tín.</p></div>
-        <div class="the"><div class="icon">📋</div><h4>Thiếu bằng chứng</h4><p>Không có video đối chứng khi xảy ra tranh chấp với sàn hoặc khách.</p></div>
-      </div>
+<section class="hero">
+  <div class="khung hero-luoi">
+    <div>
+      <span class="nhan">📦 Dành cho shop online, kho và đội đóng gói</span>
+      <h1>App quay video đóng&nbsp;gói <em>theo&nbsp;mã&nbsp;vận&nbsp;đơn</em></h1>
+      <p class="hero-mota">Đặt điện thoại ở bàn đóng hàng, quét mã vận đơn là ArgusCam bắt đầu quay. Quét đơn tiếp theo, video tự tách. Mỗi video có in mã đơn và giờ quay, được lưu lên đám mây để cả nhóm tìm lại trong vài giây khi khách khiếu nại.</p>
+      <div class="cua-hang "><a class="huy-hieu" href="https://apps.apple.com/vn/app/arguscam-packing-videos/id6779910846" target="_blank" rel="noopener" aria-label="Tải ArgusCam trên App Store"><svg viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span><small>Tải về trên</small><b>App Store</b></span></a><span class="huy-hieu sap-co"><svg viewBox="0 0 512 512" aria-hidden="true"><path fill="#34A853" d="M48 59.5v393c0 9 9.7 14.6 17.5 10.1L276 256 65.5 49.4C57.7 44.9 48 50.5 48 59.5z"/><path fill="#FBBC04" d="M352 180.4 276 256l76 75.6 79.4-45.6c23.4-13.5 23.4-47.4 0-60.9z"/><path fill="#4285F4" d="M65.5 462.6 276 256l76 75.6-286.5 131z" opacity=".9"/><path fill="#EA4335" d="M65.5 49.4 352 180.4 276 256z"/></svg><span><small>Sắp có trên</small><b>Google Play</b></span></span></div>
+      <p class="hero-ghichu"><span>Gói FREE miễn phí 1 GB</span><span>iPhone, iPad (iOS 17+)</span><span>Android 10+ sắp có trên Google Play</span><span>Tiếng Việt</span></p>
+    </div>
+    <div class="hero-anh">
+      <img class="truoc" src="/assets/img/app/android-1.webp" width="600" height="1067" alt="ArgusCam đang quay video một đơn hàng, mã vận đơn hiện trên màn hình" fetchpriority="high" decoding="async">
+      <img class="sau" src="/assets/img/app/ios-2.webp" width="600" height="1304" alt="Danh sách video đóng gói trong ArgusCam, tìm theo mã đơn" decoding="async">
     </div>
   </div>
 </section>
 
-<!-- TÍNH NĂNG -->
-<section id="tinhnang">
+<section id="arguscam-la-gi">
+  <div class="khung dinh-nghia">
+    <div>
+      <span class="nhan">Giới thiệu nhanh</span>
+      <h2 class="tieude">ArgusCam là gì?</h2>
+      <p><strong>ArgusCam là app quay video đóng gói đơn hàng trên điện thoại</strong>, dành cho shop online, kho hàng và đội đóng gói. Thay vì quay video đóng hàng thủ công rồi lục tìm từng file, nhân viên chỉ cần quét mã vận đơn hoặc mã đơn hàng trên tem: ứng dụng tự quay một video riêng cho đơn đó, in mã đơn và thời gian lên từng khung hình, rồi tải video lên kho lưu trữ đám mây dùng chung của nhóm.</p>
+      <p>Khi khách báo thiếu hàng, sai hàng hay hàng vỡ, shop chỉ cần gõ mã đơn để mở đúng video, rồi gửi làm bằng chứng cho khách, sàn thương mại điện tử hoặc đơn vị vận chuyển.</p>
+      <p>Ngoài ứng dụng di động, ArgusCam vẫn cung cấp <a href="/phan-mem-may-tinh">phần mềm cho máy tính Windows</a> cho cửa hàng muốn dùng webcam hoặc camera có sẵn.</p>
+    </div>
+    <dl class="thong-tin" aria-label="Thông tin nhanh về ArgusCam">
+      <div><dt>Loại</dt><dd>Ứng dụng di động quay video đóng gói</dd></div>
+      <div><dt>Thiết bị</dt><dd>iPhone, iPad (iOS 17+); Android 10+ sắp có trên Google Play</dd></div>
+      <div><dt>Mã quét được</dt><dd>Code 128, Code 39, EAN-13, QR</dd></div>
+      <div><dt>Lưu video</dt><dd>Đám mây, 20 đến 60 ngày tuỳ gói</dd></div>
+      <div><dt>Giá</dt><dd>Miễn phí 1 GB; BASIC 29.000đ/tháng; PRO 79.000đ/tháng</dd></div>
+      <div><dt>Ngôn ngữ</dt><dd>Tiếng Việt, tiếng Anh</dd></div>
+      <div><dt>Nhà phát triển</dt><dd>Huy Lê, Việt Nam</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="nen-xam" id="van-de">
   <div class="khung">
-    <div style="text-align:center"><span class="nhan">Tính năng chính</span></div>
-    <h2 class="tieude">ArgusCam giúp shop vận hành tốt hơn như thế nào?</h2>
-    <div class="uudiem-grid">
-      <div class="ud"><div class="icon">🎥</div><h4>Quay theo mã đơn</h4><p>Quét mã vận đơn để bắt đầu quay, tự động dừng khi quét mã tiếp theo.</p></div>
-      <div class="ud"><div class="icon">⏪</div><h4>Quay trước, gán mã sau</h4><p>Quay video trước khi có mã vận đơn rồi gán mã sau — hợp mọi quy trình.</p></div>
-      <div class="ud"><div class="icon">🔍</div><h4>Truy xuất tức thì</h4><p>Tìm lại video trong vài giây bằng mã vận đơn, SĐT khách hoặc ngày đóng.</p></div>
-      <div class="ud"><div class="icon">📷</div><h4>Nhiều camera mỗi bàn</h4><p>Không giới hạn số camera trên một bàn — ghi nhiều góc cùng lúc. Tương thích camera phổ thông: Dahua, Hikvision, Ezviz…</p></div>
-      <div class="ud"><div class="icon">🔗</div><h4>Đạt chuẩn các sàn</h4><p>Định dạng &amp; thông tin video đáp ứng yêu cầu khiếu nại Shopee, Lazada, TikTok Shop.</p></div>
-      <div class="ud"><div class="icon">👥</div><h4>Quản lý nhân viên</h4><p>Mỗi đơn hàng đều gắn với người thực hiện, giúp quy trình vận hành minh bạch và dễ dàng kiểm tra khi cần.</p></div>
+    <div class="giua">
+      <span class="nhan">Vấn đề shop online hay gặp</span>
+      <h2 class="tieude">Vì sao shop online cần quay video đóng gói?</h2>
+      <p class="mota-tieude">Khi khách khiếu nại, shop không có bằng chứng thì gần như luôn chịu thiệt, kể cả khi đã đóng đúng và đủ hàng.</p>
+    </div>
+    <div class="luoi-4">
+      <div class="the"><div class="icon" aria-hidden="true">📦</div><h3>Khách báo thiếu hàng</h3><p>Không chứng minh được đã bỏ đủ sản phẩm vào gói thì shop phải gửi bù hoặc hoàn tiền.</p></div>
+      <div class="the"><div class="icon" aria-hidden="true">🔄</div><h3>Bị tráo hàng khi hoàn</h3><p>Hàng hoàn về là sản phẩm khác, hàng đã dùng hoặc hàng giả, nhưng shop khó chứng minh.</p></div>
+      <div class="the"><div class="icon" aria-hidden="true">💥</div><h3>Hàng vỡ khi vận chuyển</h3><p>Thiếu video tình trạng hàng lúc đóng gói thì khó làm việc với đơn vị vận chuyển để đòi bồi thường.</p></div>
+      <div class="the"><div class="icon" aria-hidden="true">⭐</div><h3>Đánh giá xấu, mất uy tín</h3><p>Tranh chấp kéo dài dễ dẫn đến đánh giá một sao, ảnh hưởng điểm shop trên sàn.</p></div>
     </div>
   </div>
 </section>
 
-<!-- ƯU ĐIỂM BẢN PC -->
-<section style="background:var(--xam-nhat)" id="uudiem">
+<section id="cach-dung">
   <div class="khung">
-    <div style="text-align:center"><span class="nhan" style="font-size:15px;padding:7px 18px">Vì sao chọn ArgusCam</span></div>
-    <h2 class="tieude">Ưu điểm vượt trội của ArgusCam</h2>
-    <p class="mota-tieude">Nhẹ, riêng tư, không giới hạn số bàn và số camera — phù hợp mọi quy mô cửa hàng.</p>
-    <div class="uudiem-grid">
-      <div class="ud"><div class="icon">⚡</div><h4>Chạy siêu nhẹ</h4><p>Tối ưu để gần như không tốn tài nguyên máy — máy tính văn phòng phổ thông vẫn chạy mượt khi vừa quay vừa làm việc khác.</p></div>
-      <div class="ud"><div class="icon">♾️</div><h4>Không giới hạn số bàn</h4><p>Cửa hàng có bao nhiêu vị trí, bao nhiêu người đóng hàng cùng lúc cũng được — tạo thoải mái số bàn đóng gói, không bị tính thêm.</p></div>
-      <div class="ud"><div class="icon">🔒</div><h4>Dữ liệu riêng tư</h4><p>Toàn bộ video lưu ngay tại máy bạn, ArgusCam không giữ bất kỳ dữ liệu nào — riêng tư tuyệt đối và chuyên nghiệp.</p></div>
-      <div class="ud"><div class="icon">💾</div><h4>Không giới hạn dung lượng</h4><p>Lưu được bao nhiêu là tùy ổ cứng của bạn, không phải trả phí theo gói dung lượng hàng tháng.</p></div>
-      <div class="ud"><div class="icon">📹</div><h4>Tận dụng camera sẵn có</h4><p>Đã có camera tại cửa hàng? Chúng tôi cài phần mềm chạy luôn, không bắt buộc mua camera mới. Hỗ trợ Dahua, Hikvision, Ezviz…</p></div>
-      <div class="ud"><div class="icon">🛠️</div><h4>Cài đặt &amp; hỗ trợ tận nơi</h4><p>Đội ngũ ArgusCam hỗ trợ cài đặt và hướng dẫn sử dụng từ xa, dùng được ngay trong ngày.</p></div>
+    <div class="giua">
+      <span class="nhan">3 bước</span>
+      <h2 class="tieude">Cách quay video đóng gói bằng ArgusCam</h2>
+      <p class="mota-tieude">Không cần camera chuyên dụng hay máy tính. Một chiếc điện thoại đặt cố định ở bàn đóng hàng là đủ.</p>
     </div>
+    <ol class="buoc-ds">
+      <li class="buoc"><h3>Bắt đầu phiên quay</h3><p>Đặt điện thoại hướng vào bàn đóng hàng và bấm START SESSION. Ứng dụng chờ bạn đưa mã đầu tiên vào khung hình.</p></li>
+      <li class="buoc"><h3>Quét mã vận đơn và đóng gói</h3><p>Ứng dụng nhận mã, phát giọng nói báo bắt đầu và quay video riêng cho đơn đó, có in mã đơn và thời gian. Bạn đóng gói như bình thường.</p></li>
+      <li class="buoc"><h3>Quét mã đơn tiếp theo</h3><p>Video đơn trước tự kết thúc và được tải lên đám mây. Hết ca thì bấm STOP SESSION. Cần đối soát, gõ mã đơn vào ô tìm kiếm để mở lại video.</p></li>
+    </ol>
+  </div>
+</section>
 
-    <!-- ĐIỂM NHẤN: NHIỀU BÀN -->
-    <div class="banner">
-      <div>
-        <h3>Mở rộng không giới hạn theo quy mô cửa hàng</h3>
-        <p>Dù có một hay nhiều khu vực đóng gói, ArgusCam đều đáp ứng linh hoạt. Tạo không giới hạn bàn đóng gói và kết nối nhiều camera trên mỗi bàn để ghi hình từ nhiều góc, không phát sinh phụ phí theo số lượng.</p>
-      </div>
-      <div class="ban-luoi">
-        <div class="ban-o"><div class="bt">📦</div><b>Bàn 1</b></div>
-        <div class="ban-o"><div class="bt">📦</div><b>Bàn 2</b></div>
-        <div class="ban-o"><div class="bt">📦</div><b>Bàn 3</b></div>
-        <div class="ban-o"><div class="bt">📦</div><b>Bàn 4</b></div>
-        <div class="ban-o"><div class="bt">📦</div><b>Bàn 5</b></div>
-        <div class="ban-o them">+ ∞</div>
-      </div>
+<section class="nen-xam" id="tinh-nang">
+  <div class="khung">
+    <div class="giua">
+      <span class="nhan">Tính năng</span>
+      <h2 class="tieude">Tính năng chính của ArgusCam</h2>
+      <p class="mota-tieude">Mọi thứ shop cần để có bằng chứng cho từng đơn, từ lúc quét mã đến lúc gửi video cho khách.</p>
     </div>
-
-    <!-- CALLOUT CAMERA SẴN CÓ -->
-    <div class="callout">
-      <div class="bt">📹</div>
-      <div>
-        <b>Đã có camera? Triển khai ngay với ArgusCam.</b>
-        <span>Không cần đầu tư lại hệ thống. ArgusCam tương thích với hầu hết các dòng camera phổ thông như Dahua, Hikvision, Ezviz… giúp cửa hàng triển khai nhanh chóng và tiết kiệm chi phí.</span>
-      </div>
+    <div class="luoi-3">
+<div class="the"><div class="icon" aria-hidden="true">🏷️</div><h3>Quét mã là quay</h3><p>Hỗ trợ Code 128, Code 39, EAN-13 và mã QR. Mã được nhận diện ngay trên máy nên nhanh, không phải chờ mạng.</p></div>
+<div class="the"><div class="icon" aria-hidden="true">✂️</div><h3>Mỗi đơn một video</h3><p>Quét mã mới thì video cũ tự kết thúc, video mới bắt đầu, không phải bấm dừng giữa các đơn. Quét lại đúng mã đang quay thì video vẫn quay tiếp.</p></div>
+<div class="the"><div class="icon" aria-hidden="true">🕒</div><h3>In mã đơn và giờ quay lên video</h3><p>Mã đơn hiện lớn ở góc dưới, ngày giờ quay ở góc trên của mọi khung hình, nên video tự cho biết đó là đơn nào, quay lúc nào.</p></div>
+<div class="the"><div class="icon" aria-hidden="true">🔍</div><h3>Tìm lại trong vài giây</h3><p>Gõ một phần mã đơn là ra video. Danh sách xếp theo ngày, lọc video của bạn hoặc của người khác, và báo số mã bị quay trùng trong ngày.</p></div>
+<div class="the"><div class="icon" aria-hidden="true">👥</div><h3>Làm việc theo nhóm</h3><p>Chủ nhóm tạo nhóm, nhân viên tham gia bằng mã mời 6 ký tự, có thể đặt thêm mật khẩu. Cả nhóm dùng chung một kho video.</p></div>
+<div class="the"><div class="icon" aria-hidden="true">📊</div><h3>Thống kê năng suất</h3><p>Xem số đơn theo ngày, tuần, tháng, năm, giờ cao điểm và số đơn từng nhân viên đã quay.</p><span class="phu">Gói BASIC và PRO</span></div>
+<div class="the"><div class="icon" aria-hidden="true">☁️</div><h3>Tự tải lên đám mây</h3><p>Video ghi vào máy trước rồi tự tải lên ở chế độ nền. Mạng chập chờn vẫn quay tiếp; video chưa tải được vẫn nằm trên máy, bấm Thử lại hoặc mở lại ứng dụng để tải lên.</p></div>
+<div class="the"><div class="icon" aria-hidden="true">📤</div><h3>Tải về và chia sẻ</h3><p>Lưu video vào thư viện ảnh của máy, hoặc gửi cho khách, sàn, đơn vị vận chuyển qua Zalo, Messenger, email.</p></div>
+<div class="the"><div class="icon" aria-hidden="true">🗣️</div><h3>Tiếng Việt, có giọng nói</h3><p>Giao diện tiếng Việt và tiếng Anh. Giọng nói báo khi bắt đầu đơn mới và khi dừng phiên, nên nhân viên không cần nhìn màn hình.</p></div>
     </div>
   </div>
 </section>
 
-<!-- CHI TIẾT QUAY VIDEO -->
-<section>
+<section class="nen-toi" id="tai-app">
   <div class="khung">
-    <div class="hang">
-      <div class="minh-hoa">🖥️🎬</div>
-      <div class="noidung">
-        <span class="nhan-nho">Quay video đối soát</span>
-        <h3>Mỗi đơn một video, gắn liền mã vận đơn</h3>
+    <div class="giua">
+      <span class="nhan">Ảnh chụp ứng dụng</span>
+      <h2 class="tieude">Xem ArgusCam hoạt động</h2>
+      <p class="mota-tieude">Ảnh chụp màn hình thật từ ứng dụng trên iPhone, với dữ liệu mẫu của nhóm “Shop Demo”. Bản Android có giao diện và tính năng tương tự.</p>
+    </div>
+    <div class="cua-hang "><a class="huy-hieu" href="https://apps.apple.com/vn/app/arguscam-packing-videos/id6779910846" target="_blank" rel="noopener" aria-label="Tải ArgusCam trên App Store"><svg viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span><small>Tải về trên</small><b>App Store</b></span></a><span class="huy-hieu sap-co"><svg viewBox="0 0 512 512" aria-hidden="true"><path fill="#34A853" d="M48 59.5v393c0 9 9.7 14.6 17.5 10.1L276 256 65.5 49.4C57.7 44.9 48 50.5 48 59.5z"/><path fill="#FBBC04" d="M352 180.4 276 256l76 75.6 79.4-45.6c23.4-13.5 23.4-47.4 0-60.9z"/><path fill="#4285F4" d="M65.5 462.6 276 256l76 75.6-286.5 131z" opacity=".9"/><path fill="#EA4335" d="M65.5 49.4 352 180.4 276 256z"/></svg><span><small>Sắp có trên</small><b>Google Play</b></span></span></div>
+    <div class="thu-vien" role="region" tabindex="0" aria-label="Ảnh chụp màn hình ArgusCam, vuốt ngang để xem thêm">
+<figure><img src="/assets/img/app/ios-1.webp" width="600" height="1304" alt="Màn hình chi tiết video trên iPhone, có mã vận đơn, người quay và thời hạn lưu" loading="lazy" decoding="async"><figcaption>Mỗi đơn một video, gắn mã vận đơn</figcaption></figure>
+<figure><img src="/assets/img/app/ios-2.webp" width="600" height="1304" alt="Danh sách video theo ngày trên iPhone với ô tìm theo mã đơn" loading="lazy" decoding="async"><figcaption>Tìm lại video bằng mã đơn</figcaption></figure>
+<figure><img src="/assets/img/app/ios-3.webp" width="600" height="1304" alt="Màn hình thống kê số đơn và thời gian quay theo ngày, tuần, tháng" loading="lazy" decoding="async"><figcaption>Thống kê năng suất đóng gói</figcaption></figure>
+<figure><img src="/assets/img/app/ios-4.webp" width="600" height="1304" alt="Cài đặt nhóm: mã mời, mật khẩu nhóm và danh sách thành viên" loading="lazy" decoding="async"><figcaption>Làm việc theo nhóm</figcaption></figure>
+<figure><img src="/assets/img/app/ios-5.webp" width="600" height="1304" alt="Dung lượng lưu trữ của nhóm và chất lượng video" loading="lazy" decoding="async"><figcaption>Lưu trữ đám mây dùng chung</figcaption></figure>
+    </div>
+    <p class="goi-y-vuot">← Vuốt ngang để xem thêm →</p>
+  </div>
+</section>
+
+<section id="bang-gia">
+  <div class="khung">
+    <div class="giua">
+      <span class="nhan">Bảng giá</span>
+      <h2 class="tieude">Bảng giá ArgusCam</h2>
+      <p class="mota-tieude">Bắt đầu miễn phí, nâng cấp khi cần thêm dung lượng, lưu lâu hơn và xem thống kê. Một gói dùng chung cho cả nhóm, chủ nhóm là người thanh toán.</p>
+    </div>
+    <div class="gia-luoi">
+      <div class="goi">
+        <h3>FREE</h3>
+        <p class="gia">0đ</p>
+        <p class="dong-mo">Cho shop mới bắt đầu quay video đóng gói</p>
         <ul>
-          <li>Bắt đầu quay bằng cách quét mã vận đơn, tự dừng khi quét mã tiếp theo.</li>
-          <li>Video gắn liền mã đơn — không lo nhầm lẫn hay thất lạc.</li>
-          <li>Chất lượng rõ nét, đủ thời gian thực để làm bằng chứng khiếu nại.</li>
+          <li>1 GB dung lượng cho cả nhóm</li>
+          <li>Lưu mỗi video 20 ngày</li>
+          <li>Quay theo mã, tìm kiếm, làm việc nhóm</li>
+          <li class="khong">Video có logo ArgusCam</li>
+          <li class="khong">Không có thống kê</li>
+        </ul>
+      </div>
+      <div class="goi noi-bat">
+        <h3>BASIC</h3>
+        <p class="gia">29.000đ <small>/ tháng</small></p>
+        <p class="dong-mo">Cho shop đóng hàng đều đặn mỗi ngày</p>
+        <ul>
+          <li>10 GB dung lượng cho cả nhóm</li>
+          <li>Lưu mỗi video 30 ngày</li>
+          <li>Video không có logo</li>
+          <li>Thống kê năng suất đóng gói</li>
+          <li>Mọi tính năng của gói FREE</li>
+        </ul>
+      </div>
+      <div class="goi">
+        <h3>PRO</h3>
+        <p class="gia">79.000đ <small>/ tháng</small></p>
+        <p class="dong-mo">Cho kho nhiều đơn, nhiều nhân viên</p>
+        <ul>
+          <li>50 GB dung lượng cho cả nhóm</li>
+          <li>Lưu mỗi video 60 ngày</li>
+          <li>Video không có logo</li>
+          <li>Thống kê năng suất đóng gói</li>
+          <li>Mọi tính năng của gói FREE</li>
         </ul>
       </div>
     </div>
-    <div class="hang">
-      <div class="noidung">
-        <span class="nhan-nho">Truy xuất nhanh</span>
-        <h3>Tìm lại bất kỳ đơn nào chỉ trong vài giây</h3>
-        <ul>
-          <li>Tra cứu video theo mã vận đơn, số điện thoại hoặc ngày đóng hàng.</li>
-          <li>Video được lưu trữ gọn gàng, dễ tra cứu.</li>
-          <li>Sẵn sàng đối soát ngay khi có khiếu nại.</li>
-          <li>Giao diện đơn giản, nhân viên mới cũng dễ sử dụng.</li>
-        </ul>
-      </div>
-      <div class="minh-hoa">🔍🗂️</div>
-    </div>
+    <p class="gia-chu">Giá niêm yết trên App Store Việt Nam, cập nhật ngày 25/10/2026; ứng dụng hiển thị giá theo cửa hàng và khu vực của bạn. Gói BASIC, PRO tự gia hạn hằng tháng qua Apple ID (bản Android sẽ thanh toán qua Google Play) và huỷ được bất cứ lúc nào; gói vẫn dùng được đến hết kỳ đã trả. Thời hạn lưu tính từ lúc quay; khi hết hạn, file video bị xoá nhưng thông tin đơn vẫn tra cứu được.</p>
+    <p class="uoc-tinh"><strong>1 GB chứa được bao nhiêu video?</strong> Ước tính theo tốc độ ghi của ứng dụng, một phút video 720p chiếm khoảng 11 MB, một phút video 1080p khoảng 30 MB. Như vậy 1 GB chứa khoảng 90 phút video 720p hoặc khoảng 35 phút video 1080p. iPhone mặc định quay 720p, bản Android quay 1080p; dung lượng thực tế còn tuỳ cảnh quay.</p>
   </div>
 </section>
 
-<!-- BẢNG GIÁ -->
-<section style="background:var(--xam-nhat)" id="banggia">
+<section class="nen-xam" id="so-sanh">
   <div class="khung">
-    <div style="text-align:center"><span class="nhan" style="font-size:15px;padding:7px 18px">Bảng giá</span></div>
-    <h2 class="tieude">Giải pháp linh hoạt cho mọi quy mô cửa hàng</h2>
-    <p class="mota-tieude">Cài đặt trực tiếp trên máy tính, dữ liệu lưu trữ riêng tư và dễ dàng mở rộng theo nhu cầu vận hành. Liên hệ để nhận tư vấn và báo giá phù hợp với cửa hàng của bạn.</p>
+    <div class="giua">
+      <span class="nhan">So sánh</span>
+      <h2 class="tieude">App điện thoại, camera giám sát hay phần mềm máy tính?</h2>
+      <p class="mota-tieude">Ba cách phổ biến để có video đóng gói. Chọn theo quy mô và thiết bị shop đang có.</p>
+    </div>
+    <div class="bang-cuon" tabindex="0" role="region" aria-label="Bảng so sánh, vuốt ngang để xem thêm">
+      <table class="bang">
+        <thead><tr><th scope="col">Tiêu chí</th><th scope="col" class="cot-nhan">App ArgusCam</th><th scope="col">Camera giám sát thông thường</th><th scope="col">Phần mềm ArgusCam cho máy tính</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Thiết bị cần có</th><td class="cot-nhan">Điện thoại hoặc máy tính bảng</td><td>Camera, đầu ghi, ổ cứng</td><td>Máy tính Windows và webcam hoặc camera IP</td></tr>
+          <tr><th scope="row">Gắn video với mã đơn</th><td class="cot-nhan">Tự động khi quét mã</td><td>Không, chỉ ghi liên tục theo giờ</td><td>Tự động khi quét mã</td></tr>
+          <tr><th scope="row">Tìm lại video</th><td class="cot-nhan">Gõ mã đơn, vài giây</td><td>Tua lại theo thời gian</td><td>Gõ mã đơn</td></tr>
+          <tr><th scope="row">Nơi lưu video</th><td class="cot-nhan">Đám mây, cả nhóm cùng xem</td><td>Đầu ghi tại cửa hàng</td><td>Ổ cứng máy tính tại cửa hàng</td></tr>
+          <tr><th scope="row">Chi phí</th><td class="cot-nhan">Miễn phí 1 GB, gói trả phí từ 29.000đ/tháng</td><td>Mua thiết bị và lắp đặt</td><td>Liên hệ báo giá</td></tr>
+          <tr><th scope="row">Phù hợp với</th><td class="cot-nhan">Shop mới, shop vừa, nhiều điểm đóng hàng</td><td>Giám sát an ninh chung</td><td>Cửa hàng có sẵn máy tính và camera ở bàn đóng hàng</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="gia-chu">Phân tích chi tiết: <a href="/blog/camera-giam-sat-hay-phan-mem-quay-video-dong-goi" style="color:var(--xanh-dam);font-weight:600">Camera giám sát, phần mềm máy tính hay app điện thoại?</a></p>
+  </div>
+</section>
 
-    <div class="pc-card">
+<section id="ban-may-tinh">
+  <div class="khung">
+    <div class="khoi-pc">
       <div>
-        <h4>🖥️ Phần mềm ArgusCam</h4>
-        <ul>
-          <li>Cài trực tiếp trên máy tính của cửa hàng</li>
-          <li>Chạy siêu nhẹ, không tốn tài nguyên máy</li>
-          <li>Không giới hạn số bàn đóng hàng</li>
-          <li>Dữ liệu video lưu tại máy bạn, không lên đám mây</li>
-          <li>Không giới hạn dung lượng theo gói</li>
-          <li>Hỗ trợ cài đặt &amp; hướng dẫn từ xa</li>
-        </ul>
+        <h2>Cửa hàng muốn quay bằng máy tính và camera có sẵn?</h2>
+        <p>ArgusCam vẫn cung cấp phần mềm quay video đóng gói cho máy tính Windows: dùng webcam hoặc camera IP có sẵn, video lưu ngay trên máy. Liên hệ để được tư vấn cấu hình và báo giá.</p>
       </div>
-      <div class="gia-phai">
-        <div class="so">Liên hệ tư vấn & nhận báo giá</div>
-        <a href="#lienhe" class="nut">Nhận báo giá ngay</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- APP iOS -->
-<section class="app-ios" id="app">
-  <div class="khung">
-    <div style="text-align:center"><span class="nhan-app">📱 Đã có mặt trên App Store</span></div>
-    <h2>ArgusCam App cho iPhone</h2>
-    <p class="mota">Quay video đóng hàng theo mã vận đơn, truy xuất tức thì và theo dõi hiệu suất vận hành — ngay trên điện thoại. Video lưu đám mây, đồng bộ và chia sẻ trong cả nhóm.</p>
-
-    <div class="app-cta">
-      <a href="https://apps.apple.com/app/id6779910846" target="_blank" rel="noopener" class="app-store-btn" aria-label="Tải ArgusCam trên App Store">
-        <svg viewBox="0 0 384 512" fill="currentColor" aria-hidden="true">
-          <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/>
-        </svg>
-        <span><small>Tải về trên</small><b>App Store</b></span>
-      </a>
-    </div>
-
-    <div class="app-gallery">
-      <img src="1.jpg" alt="ArgusCam App – Ghi lại mọi đơn hàng, màn hình đăng nhập" loading="lazy">
-      <img src="2.jpg" alt="ArgusCam App – Quay video theo mã vận đơn" loading="lazy">
-      <img src="3.jpg" alt="ArgusCam App – Truy xuất video tức thì theo mã đơn" loading="lazy">
-      <img src="4.jpg" alt="ArgusCam App – Theo dõi hiệu suất vận hành và thống kê đơn" loading="lazy">
-      <img src="5.jpg" alt="ArgusCam App – Bảo mật nhóm và quản lý lưu trữ" loading="lazy">
-      <img src="6.jpg" alt="ArgusCam App – Thông tin đối soát trực quan của từng đơn" loading="lazy">
-    </div>
-    <p class="app-hint">← Vuốt ngang để xem thêm →</p>
-  </div>
-</section>
-
-<!-- LIÊN HỆ -->
-<section class="lienhe" id="lienhe">
-  <div class="khung">
-    <div style="text-align:center"><span class="nhan">Liên hệ</span></div>
-    <h2 class="tieude">Kết nối với ArgusCam</h2>
-    <div class="lienhe-grid">
-      <div class="lh-thongtin">
-        <h3>Chúng tôi luôn sẵn sàng hỗ trợ bạn</h3>
-        <div class="lh-dong"><div class="icon">📞</div><div><b>Số điện thoại / Zalo</b>0588855508</div></div>
-        <div class="lh-dong"><div class="icon">✉️</div><div><b>Email</b>arguscam.solution@gmail.com</div></div>
-        <div class="lh-dong"><div class="icon">🕐</div><div><b>Thời gian hoạt động</b>Thứ 2 – Thứ 7: 8h00 – 17h30</div></div>
-      </div>
-      <div class="form">
-        <h3>Đăng ký tư vấn</h3>
-        <form id="formTuVan">
-          <!-- Web3Forms: thay YOUR_ACCESS_KEY bằng access key lấy từ web3forms.com -->
-          <input type="hidden" name="access_key" value="1773de0c-c655-4c6f-b0aa-1f783b76c5ad">
-          <input type="hidden" name="subject" value="Đăng ký tư vấn ArgusCam từ website">
-          <input type="hidden" name="from_name" value="Website ArgusCam">
-          <!-- chống spam (honeypot) -->
-          <input type="checkbox" name="botcheck" tabindex="-1" aria-hidden="true" style="display:none">
-
-          <label for="hoten">Họ và tên</label>
-          <input id="hoten" name="Họ và tên" type="text" placeholder="Nguyễn Văn A" required>
-          <label for="sdt">Số điện thoại</label>
-          <input id="sdt" name="Số điện thoại" type="tel" placeholder="09xx xxx xxx" required>
-          <label for="quantam">Bạn quan tâm điều gì?</label>
-          <select id="quantam" name="Quan tâm">
-            <option>Phần mềm ArgusCam</option>
-            <option>Tư vấn dùng ArgusCam App trên điện thoại di động</option>
-            <option>Tư vấn chung</option>
-          </select>
-          <label for="loinhan">Lời nhắn (không bắt buộc)</label>
-          <textarea id="loinhan" name="Lời nhắn" rows="3" placeholder="Cửa hàng bạn có mấy bàn đóng hàng? Bán trên sàn nào?"></textarea>
-          <button type="submit" class="nut nut-xanh">Gửi đăng ký</button>
-          <p class="ghichu" id="formTrangThai">Chúng tôi sẽ liên hệ lại trong vòng 24 giờ làm việc.</p>
-        </form>
+      <div class="nut-hang">
+        <a href="/phan-mem-may-tinh" class="nut nut-trang">Xem bản máy tính</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- TESTIMONIAL -->
-<section>
-  <div class="khung">
-    <div style="text-align:center"><span class="nhan">Khách hàng nói gì</span></div>
-    <h2 class="tieude">Các cửa hàng đang tin dùng ArgusCam</h2>
-    <div class="nhanxet-grid">
-      <div class="nhanxet">
-        <div class="sao">★★★★★</div>
-        <p>"Cài lên máy chạy nhẹ tênh, vừa quay vừa in đơn vẫn mượt. Video lưu ngay tại máy nên rất yên tâm về dữ liệu."</p>
-        <div class="nguoi"><div class="avatar">SC</div><div><b>Shop Jemcloset</b><span>Thời trang</span></div></div>
-      </div>
-      <div class="nhanxet">
-        <div class="sao">★★★★★</div>
-        <p>"Kho mình 4 bàn đóng cùng lúc, phần mềm không giới hạn nên mỗi bàn một máy là chạy ngon. Tra đơn lại cực nhanh."</p>
-        <div class="nguoi"><div class="avatar">PT</div><div><b>Phụ kiện Toàn</b><span>Phụ kiện điện thoại</span></div></div>
-      </div>
-      <div class="nhanxet">
-        <div class="sao">★★★★★</div>
-        <p>"Hàng tháng 2000 đơn, nhờ ArgusCam mình xử lý được mấy vụ tráo hàng. Dữ liệu để ở máy mình nên không lo lộ."</p>
-        <div class="nguoi"><div class="avatar">CN</div><div><b>Chị Nhi</b><span>Thời trang trẻ em</span></div></div>
-      </div>
+<section class="nen-xam" id="nguoi-sang-lap">
+  <div class="khung sl-luoi">
+    <div class="sl-anh"><img src="/assets/img/huy-le.webp" width="640" height="853" alt="Huy Lê, nhà sáng lập ArgusCam" loading="lazy" decoding="async"></div>
+    <div class="sl-noidung">
+      <span class="vai-tro">Nhà sáng lập ArgusCam</span>
+      <h2>Huy Lê</h2>
+      <blockquote class="sl-trich">“Mỗi đơn hàng đều xứng đáng có một bằng chứng minh bạch. Đó là lý do tôi tạo ra ArgusCam.”</blockquote>
+      <p>ArgusCam do Huy Lê, nhà phát triển độc lập tại Việt Nam, xây dựng và phát hành. Sản phẩm bắt đầu từ phần mềm quay video đóng gói cho máy tính, nay tập trung vào ứng dụng di động để shop nào cũng có thể bắt đầu chỉ với một chiếc điện thoại. <a href="/gioi-thieu">Đọc thêm về ArgusCam →</a></p>
     </div>
   </div>
 </section>
 
-<!-- NGƯỜI SÁNG LẬP -->
-<section style="background:var(--xam-nhat)" id="sanglap">
-  <div class="khung">
-
-    <div class="sl-grid">
-      <div class="sl-anh">
-        <img src="nguoi-sang-lap.jpg" alt="Huy Lê – Nhà sáng lập ArgusCam" loading="lazy">
-      </div>
-      <div class="sl-noidung">
-        <span class="vaitro">Nhà sáng lập &amp; CEO</span>
-        <h3>Huy Lê</h3>
-        <div class="sl-quote">"Mỗi đơn hàng đều xứng đáng có một bằng chứng minh bạch — đó là lý do tôi tạo ra ArgusCam."</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- CTA -->
-<section style="padding:72px 0 0">
-  <div class="khung" style="padding:0">
-    <div class="cta-cuoi">
-      <h2>Sẵn sàng vận hành an tâm hơn cùng ArgusCam?</h2>
-      <p>Cài đặt phần mềm trên máy tính, bắt đầu quay video đối soát ngay hôm nay. Liên hệ ngay để được tư vấn và nhận báo giá phù hợp. 🚀</p>
-      <a href="#lienhe" class="nut">Đăng ký tư vấn miễn phí</a>
-    </div>
-  </div>
-</section>
-
-<!-- FAQ -->
 <section id="faq">
   <div class="khung">
-    <div style="text-align:center"><span class="nhan">FAQs</span></div>
-    <h2 class="tieude">Câu hỏi thường gặp</h2>
-    <div class="faq-ds">
-      <div class="faq-muc">
-        <button class="faq-hoi">ArgusCam có nặng máy không?<span class="dau">+</span></button>
-        <div class="faq-dap"><p>Không. Phần mềm được tối ưu để chạy siêu nhẹ, gần như không tốn tài nguyên. Máy tính văn phòng phổ thông vẫn vừa quay video vừa làm việc khác mượt mà.</p></div>
+    <div class="giua">
+      <span class="nhan">Hỏi đáp</span>
+      <h2 class="tieude">Câu hỏi thường gặp về ArgusCam</h2>
+    </div>
+<div class="faq-ds">
+<details class="faq-muc" open><summary>ArgusCam có miễn phí không?</summary><div class="dap"><p>Có. Gói FREE miễn phí, không giới hạn thời gian dùng, có 1 GB dung lượng cho cả nhóm và lưu mỗi video 20 ngày; video của gói FREE có logo ArgusCam. Khi cần nhiều hơn, chủ nhóm nâng cấp lên BASIC (29.000đ/tháng, 10 GB, lưu 30 ngày) hoặc PRO (79.000đ/tháng, 50 GB, lưu 60 ngày).</p></div></details>
+<details class="faq-muc"><summary>ArgusCam chạy trên điện thoại nào?</summary><div class="dap"><p>iPhone và iPad chạy iOS 17 trở lên, tải trên App Store. Bản Android dành cho Android 10 trở lên và sắp có trên Google Play. Thiết bị cần có camera sau.</p></div></details>
+<details class="faq-muc"><summary>ArgusCam quét được những loại mã nào?</summary><div class="dap"><p>Code 128, Code 39, EAN-13 và mã QR. Đây là các loại mã vạch thường in trên tem vận đơn và tem đơn hàng. Nếu tem có cả mã QR lẫn mã vạch, ứng dụng ưu tiên mã QR.</p></div></details>
+<details class="faq-muc"><summary>Video được lưu ở đâu và trong bao lâu?</summary><div class="dap"><p>Video được ghi vào máy trước, sau đó tự tải lên kho lưu trữ đám mây Cloudflare R2 dùng chung của nhóm, và bản trên máy được xoá khi tải xong. Thời hạn lưu tính từ lúc quay: 20 ngày với gói FREE, 30 ngày với BASIC, 60 ngày với PRO.</p><p>Khi hết hạn, file video bị xoá nhưng mã đơn, thời gian và người quay vẫn tra cứu được. Video quan trọng nên tải về máy trước khi hết hạn.</p></div></details>
+<details class="faq-muc"><summary>Mỗi video quay được tối đa bao lâu?</summary><div class="dap"><p>Tối đa 10 phút cho một mã đơn. Quá 10 phút, phiên quay tự dừng và bạn bấm START SESSION để quay tiếp.</p></div></details>
+<details class="faq-muc"><summary>Nhiều nhân viên có dùng chung được không?</summary><div class="dap"><p>Được. Chủ nhóm tạo nhóm và gửi mã mời 6 ký tự cho nhân viên, có thể đặt thêm mật khẩu nhóm. Cả nhóm dùng chung dung lượng và tìm được video của nhau. Chủ nhóm quản lý thành viên, mật khẩu và gói. Mỗi tài khoản chỉ thuộc một nhóm tại một thời điểm.</p></div></details>
+<details class="faq-muc"><summary>Mất mạng có quay được không?</summary><div class="dap"><p>Nếu mạng rớt trong lúc đang dùng, ứng dụng vẫn quay và giữ video trên máy. Video chưa tải lên được sẽ hiện trong tab Đơn; khi có mạng lại, bấm Thử lại hoặc tắt hẳn rồi mở lại ứng dụng để tải lên. Tuy vậy, cần có mạng lúc mở ứng dụng để đăng nhập và vào màn hình quay.</p></div></details>
+<details class="faq-muc"><summary>Ứng dụng có quay khi khoá màn hình hoặc chạy nền không?</summary><div class="dap"><p>Không. ArgusCam chỉ quay khi ứng dụng đang mở trên màn hình. Khi bạn chuyển sang ứng dụng khác hoặc khoá máy, phiên quay tự dừng. Việc tải video đã quay lên đám mây vẫn tiếp tục ở chế độ nền.</p></div></details>
+<details class="faq-muc"><summary>Video có ghi âm không?</summary><div class="dap"><p>Không. ArgusCam chỉ ghi hình, video không có âm thanh.</p></div></details>
+<details class="faq-muc"><summary>Video ArgusCam có dùng để khiếu nại với sàn được không?</summary><div class="dap"><p>Video ghi liên tục quá trình đóng gói và in mã đơn cùng thời gian trên từng khung hình, nên phù hợp để làm bằng chứng gửi kèm khi khiếu nại. Mỗi sàn và đơn vị vận chuyển có quy định riêng về video bằng chứng, vì vậy bạn nên đọc quy định hiện hành của họ trước khi gửi.</p></div></details>
+<details class="faq-muc"><summary>Làm sao để huỷ gói trả phí?</summary><div class="dap"><p>Gói BASIC và PRO tự gia hạn hằng tháng qua App Store (bản Android sẽ dùng Google Play khi ra mắt). Chủ nhóm huỷ trong mục Đăng ký (Subscriptions) của Apple ID, hoặc của tài khoản Google Play nếu mua trên Android. Gói vẫn dùng được đến hết kỳ đã thanh toán.</p></div></details>
+<details class="faq-muc"><summary>ArgusCam có phần mềm cho máy tính không?</summary><div class="dap"><p>Có. ArgusCam vẫn cung cấp phần mềm quay video đóng gói cho máy tính Windows, dùng webcam hoặc camera có sẵn và lưu video tại máy. Xem chi tiết và đăng ký báo giá tại trang <a href="/phan-mem-may-tinh">phần mềm máy tính</a>.</p></div></details>
+<details class="faq-muc"><summary>Dữ liệu của tôi có an toàn không?</summary><div class="dap"><p>Video chỉ thành viên trong nhóm xem được. Ứng dụng không chứa quảng cáo và không bán dữ liệu của bạn. Bạn có thể xoá tài khoản ngay trong ứng dụng. Chi tiết xem tại <a href="/privacy-policy">Chính sách bảo mật</a>.</p></div></details>
+</div>
+  </div>
+</section>
+
+<section class="nen-xam" id="bai-viet">
+  <div class="khung">
+    <div class="giua">
+      <span class="nhan">Blog</span>
+      <h2 class="tieude">Bài viết hữu ích cho nhà bán hàng</h2>
+    </div>
+    <div class="blog-luoi" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr));padding:40px 0 0">
+<a class="blog-the" href="/blog/quay-video-dong-hang-bang-chung-khieu-nai"><img src="/assets/og/quay-video-dong-hang-bang-chung-khieu-nai.jpg" width="1200" height="630" alt="" loading="lazy" decoding="async"><div class="than"><span class="nhan">Bằng chứng đơn hàng</span><h3>Quay video đóng hàng làm bằng chứng khi khách khiếu nại thiếu, sai hàng</h3><span class="doc-them">Đọc bài viết</span></div></a>
+<a class="blog-the" href="/blog/camera-giam-sat-hay-phan-mem-quay-video-dong-goi"><img src="/assets/og/camera-giam-sat-hay-phan-mem-quay-video-dong-goi.jpg" width="1200" height="630" alt="" loading="lazy" decoding="async"><div class="than"><span class="nhan">So sánh giải pháp</span><h3>Camera giám sát, app hay phần mềm: quay video đóng gói bằng gì?</h3><span class="doc-them">Đọc bài viết</span></div></a>
+<a class="blog-the" href="/blog/quy-trinh-xu-ly-khieu-nai-don-hang-cod"><img src="/assets/og/quy-trinh-xu-ly-khieu-nai-don-hang-cod.jpg" width="1200" height="630" alt="" loading="lazy" decoding="async"><div class="than"><span class="nhan">Chăm sóc khách hàng</span><h3>Quy trình 5 bước xử lý khiếu nại đơn hàng COD</h3><span class="doc-them">Đọc bài viết</span></div></a>
+    </div>
+    <p class="gia-chu"><a href="/blog/" style="color:var(--xanh-dam);font-weight:600">Xem tất cả bài viết →</a></p>
+  </div>
+</section>
+
+<section id="lien-he">
+  <div class="khung">
+    <div class="giua">
+      <span class="nhan">Liên hệ</span>
+      <h2 class="tieude">Cần hướng dẫn hoặc tư vấn?</h2>
+      <p class="mota-tieude">Để lại số điện thoại, ArgusCam gọi lại hướng dẫn cài đặt app, cách đặt điện thoại ở bàn đóng hàng, hoặc tư vấn bản máy tính.</p>
+    </div>
+    <div class="lh-luoi">
+      <div class="lh-thongtin">
+        <h3>Thông tin liên hệ</h3>
+        <div class="lh-dong"><div class="icon" aria-hidden="true">📞</div><div><b>Điện thoại / Zalo</b><a href="tel:+84588855508">0588855508</a> · <a href="https://zalo.me/0588855508" target="_blank" rel="noopener">Nhắn Zalo</a></div></div>
+<div class="lh-dong"><div class="icon" aria-hidden="true">✉️</div><div><b>Email</b><a href="mailto:arguscamvn@gmail.com">arguscamvn@gmail.com</a></div></div>
+<div class="lh-dong"><div class="icon" aria-hidden="true">🕐</div><div><b>Giờ hỗ trợ</b>Thứ 2 – Thứ 7, 8:00 – 18:00 (GMT+7)</div></div>
       </div>
-      <div class="faq-muc">
-        <button class="faq-hoi">Tôi có nhiều bàn đóng hàng thì sao?<span class="dau">+</span></button>
-        <div class="faq-dap"><p>ArgusCam không giới hạn số bàn đóng hàng. Cửa hàng có bao nhiêu vị trí, bao nhiêu người đóng gói cùng lúc đều dùng được, không bị tính thêm phí theo bàn.</p></div>
-      </div>
-      <div class="faq-muc">
-        <button class="faq-hoi">Video lưu ở đâu? Có an toàn không?<span class="dau">+</span></button>
-        <div class="faq-dap"><p>Toàn bộ video lưu ngay trên ổ cứng máy tính của bạn. ArgusCam không tải dữ liệu lên đám mây, nên bạn hoàn toàn làm chủ dữ liệu và không lo lộ thông tin.</p></div>
-      </div>
-      <div class="faq-muc">
-        <button class="faq-hoi">Có giới hạn dung lượng lưu trữ không?<span class="dau">+</span></button>
-        <div class="faq-dap"><p>Không giới hạn theo gói. Bạn lưu được bao nhiêu video là tùy dung lượng ổ cứng của máy, không phải trả phí lưu trữ hàng tháng.</p></div>
-      </div>
-      <div class="faq-muc">
-        <button class="faq-hoi">Cần thiết bị gì để chạy ArgusCam?<span class="dau">+</span></button>
-        <div class="faq-dap"><p>Một máy tính văn phòng phổ thông kèm webcam là đủ. Không cần đầu tư hệ thống camera chuyên dụng đắt tiền. Đội ngũ ArgusCam sẽ tư vấn thiết bị phù hợp khi bạn liên hệ.</p></div>
-      </div>
-      <div class="faq-muc">
-        <button class="faq-hoi">ArgusCam có bản trên điện thoại không?<span class="dau">+</span></button>
-        <div class="faq-dap"><p>Có. ArgusCam App cho di động đã ra mắt trên App Store và Google Play, hỗ trợ quay video theo mã vận đơn, truy xuất tức thì và lưu video trên đám mây để đồng bộ cả nhóm.</p></div>
-      </div>
+      <form class="form" data-web3forms action="https://api.web3forms.com/submit" method="POST">
+  <h3>Gửi yêu cầu tư vấn</h3>
+  <input type="hidden" name="access_key" value="1773de0c-c655-4c6f-b0aa-1f783b76c5ad">
+  <input type="hidden" name="subject" value="Yêu cầu tư vấn ArgusCam từ website">
+  <input type="hidden" name="from_name" value="Website ArgusCam">
+  <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
+  <label for="hoten">Họ và tên</label>
+  <input id="hoten" name="Họ và tên" type="text" autocomplete="name" placeholder="Nguyễn Văn A" required>
+  <label for="sdt">Số điện thoại</label>
+  <input id="sdt" name="Số điện thoại" type="tel" autocomplete="tel" inputmode="tel" placeholder="09xx xxx xxx" required>
+  <label for="quantam">Bạn cần gì?</label>
+  <select id="quantam" name="Quan tâm"><option>Hướng dẫn dùng app ArgusCam</option><option>Báo tôi khi có bản Android</option><option>Phần mềm ArgusCam cho máy tính</option><option>Câu hỏi khác</option></select>
+  <label for="loinhan">Lời nhắn (không bắt buộc)</label>
+  <textarea id="loinhan" name="Lời nhắn" rows="3" placeholder="Shop bạn bán trên sàn nào, mỗi ngày khoảng bao nhiêu đơn?"></textarea>
+  <button type="submit" class="nut nut-xanh">Gửi yêu cầu</button>
+  <p class="ghichu" role="status">Chúng tôi liên hệ lại trong giờ hỗ trợ: Thứ 2 – Thứ 7, 8:00 – 18:00 (GMT+7).</p>
+</form>
     </div>
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer>
+<section>
   <div class="khung">
-    <div class="ft-grid">
+    <div class="cta-cuoi">
+      <h2>Bắt đầu quay video đóng gói ngay hôm nay</h2>
+      <p>Tải ArgusCam, tạo nhóm và quét đơn đầu tiên trong vài phút. Gói FREE không cần thanh toán.</p>
+      <div class="cua-hang "><a class="huy-hieu" href="https://apps.apple.com/vn/app/arguscam-packing-videos/id6779910846" target="_blank" rel="noopener" aria-label="Tải ArgusCam trên App Store"><svg viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg><span><small>Tải về trên</small><b>App Store</b></span></a><span class="huy-hieu sap-co"><svg viewBox="0 0 512 512" aria-hidden="true"><path fill="#34A853" d="M48 59.5v393c0 9 9.7 14.6 17.5 10.1L276 256 65.5 49.4C57.7 44.9 48 50.5 48 59.5z"/><path fill="#FBBC04" d="M352 180.4 276 256l76 75.6 79.4-45.6c23.4-13.5 23.4-47.4 0-60.9z"/><path fill="#4285F4" d="M65.5 462.6 276 256l76 75.6-286.5 131z" opacity=".9"/><path fill="#EA4335" d="M65.5 49.4 352 180.4 276 256z"/></svg><span><small>Sắp có trên</small><b>Google Play</b></span></span></div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="chan-trang">
+  <div class="khung">
+    <div class="ft-luoi">
       <div>
-        <div class="logo" style="margin-bottom:12px">🔷 Argus<span class="xanh">Cam</span></div>
-        <p style="font-size:13.5px;max-width:280px">Phần mềm quay video đóng hàng &amp; truy xuất nhanh cho nhà bán hàng TMĐT.</p>
+        <a href="/" class="logo"><img src="/assets/img/mark-white.png" alt="" width="35" height="40" loading="lazy"><span>Argus<b>Cam</b></span></a>
+        <p>Ứng dụng quay video đóng gói theo mã vận đơn cho nhà bán hàng online. Phát triển bởi Huy Lê, nhà phát triển độc lập tại Việt Nam.</p>
       </div>
       <div>
-        <h5>Sản phẩm</h5>
-        <a href="#tinhnang">Tính năng</a>
-        <a href="#uudiem">Ưu điểm</a>
-        <a href="#banggia">Bảng giá</a>
+        <p class="ft-tieude">Sản phẩm</p>
+        <ul>
+          <li><a href="/#tinh-nang">Ứng dụng di động</a></li>
+          <li><a href="/#bang-gia">Bảng giá</a></li>
+          <li><a href="/phan-mem-may-tinh">Phần mềm máy tính</a></li>
+          <li><a href="https://apps.apple.com/vn/app/arguscam-packing-videos/id6779910846" target="_blank" rel="noopener">Tải trên App Store</a></li>
+        </ul>
       </div>
       <div>
-        <h5>Liên hệ</h5>
-        <a href="tel:0588855508">0588855508</a>
-        <a href="mailto:arguscam.solution@gmail.com">Email</a>
-        <a href="#lienhe">Zalo</a>
+        <p class="ft-tieude">Tìm hiểu</p>
+        <ul>
+          <li><a href="/gioi-thieu">Giới thiệu</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/#faq">Câu hỏi thường gặp</a></li>
+          <li><a href="/#so-sanh">So sánh giải pháp</a></li>
+        </ul>
       </div>
       <div>
-        <h5>Trợ giúp</h5>
-        <a href="blog/index.html">Blog</a>
-        <a href="#faq">Câu hỏi thường gặp</a>
-        <a href="#lienhe">Tư vấn</a>
-        <a href="privacy-policy.html">Chính sách bảo mật</a>
+        <p class="ft-tieude">Hỗ trợ</p>
+        <ul>
+          <li><a href="tel:+84588855508">0588855508 (Zalo)</a></li>
+          <li><a href="mailto:arguscamvn@gmail.com">arguscamvn@gmail.com</a></li>
+          <li><a href="/privacy-policy">Chính sách bảo mật</a></li>
+          <li><a href="/xoa-tai-khoan">Xoá tài khoản</a></li>
+        </ul>
       </div>
     </div>
-    <div class="ft-duoi">© 2026 ArgusCam. Designed and developed by ArgusCam Team.</div>
+    <div class="ft-duoi">© 2026 ArgusCam · Hỗ trợ Thứ 2 – Thứ 7, 8:00 – 18:00 (GMT+7)</div>
   </div>
 </footer>
-
-<script>
-  document.querySelectorAll('.faq-hoi').forEach(function(nut){
-    nut.addEventListener('click', function(){
-      var muc = nut.parentElement;
-      var dap = muc.querySelector('.faq-dap');
-      var dangMo = muc.classList.contains('mo');
-      document.querySelectorAll('.faq-muc.mo').forEach(function(m){
-        m.classList.remove('mo');
-        m.querySelector('.faq-dap').style.maxHeight = null;
-      });
-      if(!dangMo){
-        muc.classList.add('mo');
-        dap.style.maxHeight = dap.scrollHeight + 'px';
-      }
-    });
-  });
-
-  var formTuVan = document.getElementById('formTuVan');
-  if(formTuVan){
-    formTuVan.addEventListener('submit', function(e){
-      e.preventDefault();
-      var trangThai = document.getElementById('formTrangThai');
-      var hoten = formTuVan.querySelector('[name="Họ và tên"]').value.trim();
-      var sdt = formTuVan.querySelector('[name="Số điện thoại"]').value.trim();
-      if(!hoten || !sdt){
-        trangThai.style.color = '#C0392B';
-        trangThai.textContent = 'Vui lòng nhập họ tên và số điện thoại để chúng tôi liên hệ lại.';
-        return;
-      }
-      var nut = formTuVan.querySelector('button[type="submit"]');
-      var chuNut = nut.textContent;
-      nut.disabled = true;
-      nut.textContent = 'Đang gửi...';
-      trangThai.style.color = 'var(--xam)';
-      trangThai.textContent = 'Đang gửi thông tin...';
-
-      fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json', 'Accept': 'application/json'},
-        body: JSON.stringify(Object.fromEntries(new FormData(formTuVan)))
-      })
-      .then(function(res){ return res.json(); })
-      .then(function(data){
-        if(data.success){
-          formTuVan.reset();
-          trangThai.style.color = 'var(--xanh)';
-          trangThai.textContent = 'Cảm ơn ' + hoten + '! ArgusCam đã nhận thông tin và sẽ liên hệ qua số ' + sdt + ' trong 24 giờ làm việc.';
-        } else {
-          throw new Error(data.message || 'fail');
-        }
-      })
-      .catch(function(){
-        trangThai.style.color = '#C0392B';
-        trangThai.textContent = 'Gửi không thành công. Vui lòng thử lại hoặc liên hệ trực tiếp qua Zalo 0588855508.';
-      })
-      .finally(function(){
-        nut.disabled = false;
-        nut.textContent = chuNut;
-      });
-    });
-  }
-</script>
+<script src="/assets/site.js?v=20261025" defer></script>
 </body>
 </html>

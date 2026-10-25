@@ -31,6 +31,7 @@ Chưa có / giới hạn:
 
 - [Trang chủ – app quay video đóng hàng](https://arguscam.io.vn/): ArgusCam là gì, điểm khác biệt, cách quay video đóng hàng, bảng giá theo nhóm, so sánh, câu hỏi thường gặp.
 - [Quay video bóc hàng cho người mua](https://arguscam.io.vn/quay-video-boc-hang): Cách quay video bóc hàng có in mã và ngày giờ, video cần thấy gì, gửi video cho sàn, gói FREE.
+- [Mẫu tem nhắc khách quay video khi mở hàng](https://arguscam.io.vn/tem-nhac-quay-video): Mẫu tem miễn phí cho shop dán lên kiện, in được bằng máy in nhiệt (100×150 mm, 75×100 mm); khách quay bằng app nào cũng được.
 - [Giới thiệu](https://arguscam.io.vn/gioi-thieu): ArgusCam và nhà phát triển Huy Lê.
 - [Phần mềm cho máy tính (theo yêu cầu)](https://arguscam.io.vn/phan-mem-may-tinh): Bản Windows dùng webcam hoặc camera có sẵn, lưu video tại máy.
 - [Tải trên App Store](https://apps.apple.com/vn/app/arguscam-packing-videos/id6779910846): Ứng dụng ArgusCam cho iPhone và iPad.

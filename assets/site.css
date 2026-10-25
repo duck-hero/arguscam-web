@@ -616,3 +616,42 @@ section.cta-khoi{padding-top:0}
 }
 /* home hero ≤1100px: huy hiệu + ghi chú giá nằm ngay dưới đoạn mở đầu, hai cửa ở cuối */
 @media(max-width:1100px){.hero:not(.hero-mua) .cua-doi:last-child{margin-bottom:0}}
+/* /tai: trang tải (đích của /tt /yt /fb). site.js gắn html.tb-ios | tb-android | tb-khac theo thiết bị */
+.tai-hero{background:linear-gradient(180deg,#EFF6FC 0%,#DCEBF7 70%,#fff 100%);padding:36px 0 64px}
+.tai-luoi{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:48px;align-items:center}
+@media(max-width:860px){.tai-luoi{grid-template-columns:minmax(0,1fr);gap:32px}}
+.tai-chinh h1{font-size:clamp(36px,6vw,54px);font-weight:800;line-height:1.12;letter-spacing:-.5px;margin-bottom:14px}
+.tai-mota{font-size:17px;color:var(--chu);max-width:640px}
+.tai-dang-mo{margin-top:18px;font-weight:700;color:var(--navy);font-size:15px}
+.tai-hanh-dong{display:flex;flex-direction:column;gap:22px;margin-top:26px;max-width:600px}
+.tai-nut-to{font-size:19px;padding:15px 30px;min-height:60px;border-radius:14px;gap:12px;border:1.5px solid var(--xanh)}
+.tai-nut-to svg{width:22px;height:22px;flex:none;margin-top:-3px}
+.tai-phu{margin-top:12px;font-size:14px;color:var(--xam)}
+.tai-android{background:#fff;border:1.5px dashed #A9B6C3;border-radius:16px;padding:16px 20px}
+.tai-android-tieude{font-weight:800;color:var(--navy);margin-bottom:4px}
+.tai-android p{font-size:15px;color:var(--chu)}
+.tai-android a{color:var(--xanh-dam);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.tai-android .tai-android-them{margin-top:8px;font-size:14px}
+.tai-qr{background:#fff;border:1px solid var(--vien);border-radius:20px;padding:22px;text-align:center;box-shadow:var(--bong)}
+.tai-qr-ma{display:block;width:200px;height:200px;margin:0 auto 14px}
+.tai-qr [hidden]{display:none}
+.tai-qr p{font-size:14px;color:var(--chu)}
+.tai-qr .tai-qr-url{margin-top:6px;font-weight:700;color:var(--navy)}
+@media(hover:none) and (pointer:coarse){.tai-qr{display:none}}
+html.tb-ios .tai-qr,html.tb-android .tai-qr{display:none}
+html.tb-khac .tai-qr{display:block}
+html.tb-android .tai-android{order:-1;border-style:solid;border-color:var(--xanh);background:var(--xanh-nhat)}
+html.tb-android .tai-nut-to{background:#fff;color:var(--xanh-dam)}
+html.tb-android .tai-nut-to:hover{background:var(--xanh-nhat)}
+.tai-them{padding:56px 0 72px}
+.tai-them .buoc-ds{margin-top:32px}
+.tai-free{max-width:860px;margin:32px auto 0}
+.tai-cua{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:860px;margin:24px auto 0}
+@media(max-width:640px){.tai-cua{grid-template-columns:1fr}}
+.tai-cua-muc{display:block;border-radius:16px;padding:18px 20px;background:var(--xanh-nhat);border:1px solid var(--xanh-vien);transition:transform .2s,box-shadow .2s}
+.tai-cua-muc:hover{transform:translateY(-2px);box-shadow:var(--bong)}
+.tai-cua-muc span{display:block;font-size:13.5px;color:var(--xam)}
+.tai-cua-muc b{display:block;margin-top:2px;font-size:16px;color:var(--xanh-dam)}
+.tai-cua-muc+.tai-cua-muc{background:var(--navy);border-color:var(--navy);border-left:4px solid var(--cam)}
+.tai-cua-muc+.tai-cua-muc span{color:var(--xanh-chu-toi)}
+.tai-cua-muc+.tai-cua-muc b{color:#fff}

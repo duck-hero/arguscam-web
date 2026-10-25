@@ -5,3 +5,15 @@
 # Trang tải cũ (/download) đã bỏ: 301 về trang phần mềm máy tính
 /download         /phan-mem-may-tinh  301
 /download.html    /phan-mem-may-tinh  301
+
+# Đường dẫn ngắn đọc trên video: tới /tai kèm mã chiến dịch App Store (ct). 302 để sau này đổi đích được
+/tt               /tai?ct=tt        302
+/yt               /tai?ct=yt        302
+/fb               /tai?ct=fb-reels  302
+# Cloudflare Pages so khớp nguyên văn đường dẫn (không bỏ dấu / cuối, phân biệt hoa thường): thêm các dạng hay gõ
+/tt/              /tai?ct=tt        302
+/yt/              /tai?ct=yt        302
+/fb/              /tai?ct=fb-reels  302
+/TT               /tai?ct=tt        302
+/YT               /tai?ct=yt        302
+/FB               /tai?ct=fb-reels  302
